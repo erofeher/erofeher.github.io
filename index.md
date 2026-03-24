@@ -19,6 +19,13 @@ A reference page for a fictional payment service API, including authentication, 
 
 [View API Documentation](api-docs.html)
 
+### 🔹 Additional API Samples
+
+- [Metadata API Sample](save-metadata-rest-api-sample.html)
+- [Analytics Platform API (Taipy)](taipy-rest-api-sample.html)
+- [Weather API Sample](weather-rest-api-sample.html)
+- [Hydrology API Sample](hydrology-rest-api-sample.html)
+
 ### User Guide Sample
 A structured onboarding guide for a fictional workspace platform, showing how I organize step-by-step user-facing documentation.
 
