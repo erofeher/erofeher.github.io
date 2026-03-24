@@ -1,24 +1,26 @@
-# Erik Feher GitHub Portfolio
+# Erik Feher - GitHub Portfolio
 
-This repository contains a simple GitHub Pages portfolio for a Senior Technical Writer profile.
+This repository contains a public technical writing portfolio built with GitHub Pages.
 
-## Files
+## Live Site
 
-- `index.md` - Homepage
-- `api-docs.md` - API documentation sample
-- `user-guide.md` - User guide sample
-- `troubleshooting.md` - Troubleshooting guide sample
-- `_config.yml` - GitHub Pages configuration
+https://erofeher.github.io
 
-## How to publish
+## Included Samples
 
-1. Create a public repository named `yourusername.github.io`
-2. Upload all files from this ZIP
-3. In GitHub, go to **Settings -> Pages**
-4. Under **Build and deployment**, set **Source** to **Deploy from a branch**
-5. Select branch **main** and folder **/ (root)**
-6. Save
+- API documentation sample
+- User guide sample
+- Troubleshooting guide sample
 
-Your portfolio will be published at:
+## Purpose
 
-`https://yourusername.github.io`
+This portfolio demonstrates:
+
+- API and SaaS documentation structure
+- Clear end-user guidance
+- Support-oriented troubleshooting content
+- Safe, sanitized sample content for public presentation
+
+## Notes
+
+All examples are fictional and intentionally generalized to avoid exposing confidential customer or product information.
