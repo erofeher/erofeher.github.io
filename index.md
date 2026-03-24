@@ -21,8 +21,6 @@ A reference page for a fictional payment service API, including authentication, 
 
 ### 🔹 Additional API Samples
 
-- [Metadata API Sample](save-metadata-rest-api-sample.html)
-- [Analytics Platform API (Taipy)](taipy-rest-api-sample.html)
 - [Weather API Sample](weather-rest-api-sample.html)
 - [Hydrology API Sample](hydrology-rest-api-sample.html)
 
