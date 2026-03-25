@@ -1,4 +1,3 @@
-## Erik Feher
 
 **Senior Technical Writer | API & SaaS Documentation Specialist**
 
@@ -33,6 +32,12 @@ A structured onboarding guide for a fictional workspace platform, showing how I 
 A support-oriented troubleshooting page with common issues, probable causes, and recommended actions.
 
 [View Troubleshooting Guide](troubleshooting.html)
+
+## Methodology
+Overview of my approach to technical documentation, including structure, collaborat
+
+- [My Approach to Documentation](approach.html)
+- [AI in Technical Writing](ai-documentation.html)
 
 ## Experience Snapshot
 
