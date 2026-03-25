@@ -1,51 +1,51 @@
-# API Documentation Sample
+# Hydrology API
 
-This is a sanitized sample for portfolio purposes.
+## Overview
 
-Version: 0.0
-Date: November 23
+The Hydrology API provides access to watershed information, precipitation records, and streamflow data through REST endpoints.  
+It is designed for applications and workflows that require structured environmental data for analysis, monitoring, and reporting.
 
-Data Platform Application REST API
-User Manual
-Overview
-Welcome to the Data Platform Application REST API user manual. This API provides access to hydrological data and watersheds, precipitation, and streamflow calculations. It is hosted on a cloud platform, ensuring scalability and reliability.
-Authentication is required to access the API. We use API keys to authenticate users. To obtain an API key, please contact our support team at support@hydrologyapp.com. Include your organization name and intended usage in the request.
-Endpoints
-The Data Platform Application REST API offers various endpoints to access hydrological data and calculations. Each endpoint serves a specific purpose, allowing users to retrieve watersheds, precipitation, and streamflow information.
-These endpoints are designed to assist you in retrieving hydrological data, making informed decisions, and conducting analyses related to watersheds and the associated precipitation and streamflow data.
-Watersheds
-The "Get Watersheds" endpoint allows you to retrieve a list of available watersheds. Each watershed is associated with a unique ID, a name, and its geographical location. This endpoint provides essential information about the watersheds, making it easy to identify and select the one of interest for further analysis or data retrieval.
-Endpoint: `/watersheds`
-GET `/watersheds`: Retrieve a list of available watersheds.
-GET `/watersheds/{id}`: Get information about a specific watershed by ID.
-Precipitation
-The "Get Precipitation Data" endpoint enables you to access historical precipitation data for a specific watershed. By providing the unique ID of the watershed, you can retrieve a time-series of precipitation records. This data is valuable for hydrological and environmental studies, allowing you to analyze and understand the precipitation patterns in a particular geographic area over time.
-Endpoint: `/precipitation`
-GET `/precipitation/{watershed_id}`: Get precipitation data for a specific watershed.
-Streamflow
-The "Get Streamflow Data" endpoint provides access to historical streamflow data for a specific watershed. By specifying the unique ID of the watershed, you can retrieve a time-series of streamflow records. Streamflow data is essential for hydrological and environmental studies, as it allows you to analyze and understand the flow of water in a particular geographic area over time. This information is valuable for flood risk assessment, water resource management, and various other applications related to hydrology.
-Endpoint: `/streamflow`
-GET `/streamflow/{watershed_id}`: Get streamflow data for a specific watershed.
-API Rate Limit
-To ensure fair usage, we implement rate limiting on the API. Users are allowed a specific number of requests per minute. The rate limits are as follows:
-100 requests per minute for free-tier users.
-500 requests per minute for premium-tier users.
+This API enables users to:
+- Retrieve available watersheds.
+- Access historical precipitation data.
+- Access historical streamflow data.
+- Work with JSON-based responses for downstream analysis.
 
-Error Handling
-The API uses HTTP status codes to indicate the success or failure of requests. In case of an error, the response will include a JSON object with details about the error. Please refer to the API documentation for a list of possible error codes and their meanings.
-Response Format
-The API returns responses in JSON format. Each response will contain the appropriate data and, when applicable, metadata such as timestamps and units.
-Sample Requests and Responses
-In this section, we provide sample HTTP requests and their corresponding responses for the key API endpoints. These samples demonstrate how to interact with the Data Platform Application REST API effectively. By reviewing these examples, you'll gain a clear understanding of the request structure and the format of the data returned in the API responses. These samples serve as practical references for integrating the API into your applications and workflows.
-Get Watersheds
-Request:
-http
-GET /watersheds
+---
+
+## Base URL
+
+```
+https://api.example.com/v1
+```
+
+---
+
+## Authentication
+
+All requests require authentication via API key:
+
+```
 Authorization: Bearer YOUR_API_KEY
+```
 
-Response:
-json
-HTTP 200 OK
+---
+
+## Endpoints
+
+### GET /watersheds
+
+Retrieve a list of available watersheds.
+
+#### Example Request
+
+```
+GET /watersheds
+```
+
+#### Example Response
+
+```json
 {
   "watersheds": [
     {
@@ -60,16 +60,41 @@ HTTP 200 OK
     }
   ]
 }
+```
 
-Get Precipitation Data
-Request:
-http
+---
+
+### GET /watersheds/{id}
+
+Retrieve information about a specific watershed by ID.
+
+#### Path Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| id   | int  | Yes      | Watershed identifier |
+
+---
+
+### GET /precipitation/{watershed_id}
+
+Retrieve historical precipitation data for a specific watershed.
+
+#### Path Parameters
+
+| Name         | Type | Required | Description |
+|--------------|------|----------|-------------|
+| watershed_id | int  | Yes      | Watershed identifier |
+
+#### Example Request
+
+```
 GET /precipitation/1
-Authorization: Bearer YOUR_API_KEY
+```
 
-Response:
-json
-HTTP 200 OK
+#### Example Response
+
+```json
 {
   "watershed_id": 1,
   "precipitation_data": [
@@ -83,4 +108,81 @@ HTTP 200 OK
     }
   ]
 }
+```
 
+---
+
+### GET /streamflow/{watershed_id}
+
+Retrieve historical streamflow data for a specific watershed.
+
+#### Path Parameters
+
+| Name         | Type | Required | Description |
+|--------------|------|----------|-------------|
+| watershed_id | int  | Yes      | Watershed identifier |
+
+#### Example Request
+
+```
+GET /streamflow/1
+```
+
+#### Example Response
+
+```json
+{
+  "watershed_id": 1,
+  "streamflow_data": [
+    {
+      "date": "2023-10-01",
+      "streamflow_cms": 340.5
+    },
+    {
+      "date": "2023-10-02",
+      "streamflow_cms": 322.1
+    }
+  ]
+}
+```
+
+---
+
+## Rate Limits
+
+The API supports tier-based rate limits:
+
+- Free tier: **100 requests per minute**
+- Premium tier: **500 requests per minute**
+
+---
+
+## Response Format
+
+All responses are returned in **JSON** format and may include metadata such as timestamps, units, and watershed identifiers.
+
+---
+
+## Error Handling
+
+| Status Code | Description |
+|-------------|-------------|
+| 400         | Bad Request – Invalid request parameters |
+| 401         | Unauthorized – Missing API key |
+| 404         | Not Found – Watershed or resource not found |
+| 429         | Too Many Requests – Rate limit exceeded |
+| 500         | Internal Server Error |
+
+---
+
+## Notes
+
+- Use watershed identifiers to retrieve precipitation and streamflow data for a specific region.
+- Validate request parameters before sending requests.
+- Consider caching frequently requested data where appropriate.
+
+---
+
+## About This Sample
+
+This is a sanitized API documentation sample created for portfolio purposes, demonstrating structure, clarity, and best practices in technical writing.
