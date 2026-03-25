@@ -27,7 +27,7 @@ I work closely with:
 
 ## Documentation Workflow
 
-![Documentation Workflow](images/workflow.png)
+![Documentation Workflow](images/workflow_pretty.png)
 
 ## Continuous Improvement
 
