@@ -2,7 +2,13 @@
 
 **Senior Technical Writer | API & SaaS Documentation Specialist**
 
-Senior Technical Writer with 9+ years of experience creating API, SaaS, and cloud documentation in Agile environments. I specialize in translating complex technical concepts into clear, user-focused content and improving documentation workflows using modern tools and AI.
+Senior Technical Writer with 9+ years of experience delivering API, SaaS, and cloud documentation in Agile environments.
+
+I specialize in translating complex technical concepts into clear, user-focused content for developers and end users. My work focuses on structured documentation, consistency, and scalable content workflows.
+
+I actively leverage AI tools such as GitHub Copilot and ChatGPT to accelerate documentation processes, improve content quality, and support modern documentation practices.
+
+👉 Explore my portfolio below to see API documentation, user guides, and real-world writing samples.
 
 ## What I Do Best
 
@@ -18,28 +24,16 @@ A selection of writing samples demonstrating API documentation, user guidance, a
 
 ### Core Samples
 
-- [API Documentation Sample – Payment Service](api-docs.html)  
-  Sample demonstrating REST API structure, authentication, request and response examples, and error handling.
-
-- [User Guide Sample – Getting Started with Workspace Hub](user-guide.html)  
-  Sample showing step-by-step onboarding documentation for end users.
-
-- [Troubleshooting Guide Sample – Common Access Issues](troubleshooting.html)  
-  Sample focused on support-oriented troubleshooting with probable causes and recommended actions.
+- [API Documentation Sample – Payment Service](api-docs.html)
+- [User Guide Sample – Getting Started with Workspace Hub](user-guide.html)
+- [Troubleshooting Guide Sample – Common Access Issues](troubleshooting.html)
 
 ### Additional API Samples
 
-- [Metadata API Sample](save-metadata-rest-api-sample.html)  
-  Sample demonstrating endpoint documentation for metadata mapping operations.
-
-- [Analytics Platform API Sample](taipy-rest-api-sample.html)  
-  Sample showing structured API documentation for platform and entity operations.
-
-- [Weather API Sample](weather-rest-api-sample.html)  
-  Sample demonstrating request parameters, example responses, rate limits, and error handling.
-
-- [Hydrology API Sample](hydrology-rest-api-sample.html)  
-  Sample illustrating API documentation for environmental and data-driven endpoints.
+- [Metadata API Sample](save-metadata-rest-api-sample.html)
+- [Analytics Platform API Sample](taipy-rest-api-sample.html)
+- [Weather API Sample](weather-rest-api-sample.html)
+- [Hydrology API Sample](hydrology-rest-api-sample.html)
 
 ## Methodology
 
@@ -48,13 +42,27 @@ Overview of my approach to technical documentation, including structure, collabo
 - [My Approach to Documentation](approach.html)
 - [AI in Technical Writing](ai-documentation.html)
 
-## Tools & Technologies
+## Skills & Tools
 
-**Documentation & Publishing:** MadCap Flare, VSCode, Markdown, HTML, MKDocs.  
-**Version Control:** GitHub, GitLab, Git-based workflows.  
-**Knowledge Base Platforms:** Zendesk, Intercom.  
-**AI Tools:** GitHub Copilot, ChatGPT.  
-**Multimedia:** Camtasia.
+### Documentation & Publishing
+- MadCap Flare (Advanced) – Creating and publishing structured HTML documentation and user guides.
+- Markdown / HTML (Advanced) – Writing structured, maintainable documentation content.
+- VSCode (Advanced) – Authoring and managing documentation in Markdown-based workflows.
+
+### Version Control & Workflow
+- GitHub / GitLab (Advanced) – Managing documentation using Git-based workflows and version control.
+- Documentation-as-Code – Maintaining structured documentation in collaborative environments.
+
+### Knowledge Base & Support Content
+- Zendesk (Advanced) – Managing and maintaining knowledge base content.
+- Intercom (Advanced) – Creating and structuring customer-facing help center content.
+
+### AI-Assisted Documentation
+- GitHub Copilot (Advanced) – AI-assisted content creation and documentation drafting within development workflows.
+- ChatGPT (Advanced) – Supporting documentation workflows, content structuring, and editing.
+
+### Multimedia & Training Content
+- Camtasia (Advanced) – Creating video tutorials and training materials for documentation.
 
 ## Contact
 
