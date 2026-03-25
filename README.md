@@ -1,26 +1,14 @@
-# Erik Feher - GitHub Portfolio
+# Erik Feher Portfolio
 
-This repository contains a public technical writing portfolio built with GitHub Pages.
+This repository contains my technical writing portfolio, including API documentation samples, user-facing content, troubleshooting guides, and methodology pages.
+
+## Highlights
+
+- API documentation samples.
+- User guide and troubleshooting samples.
+- Documentation methodology.
+- AI-assisted technical writing workflow.
 
 ## Live Site
 
 https://erofeher.github.io
-
-## Included Samples
-
-- API documentation sample
-- User guide sample
-- Troubleshooting guide sample
-
-## Purpose
-
-This portfolio demonstrates:
-
-- API and SaaS documentation structure
-- Clear end-user guidance
-- Support-oriented troubleshooting content
-- Safe, sanitized sample content for public presentation
-
-## Notes
-
-All examples are fictional and intentionally generalized to avoid exposing confidential customer or product information.
