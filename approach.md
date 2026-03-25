@@ -38,7 +38,7 @@ Effective documentation depends on strong collaboration. I work closely with:
 
 ## Documentation Workflow
 
-![Documentation Workflow](images/workflow_pretty.png)
+![Documentation Workflow](images/workflow_3d.png)
 
 This workflow reflects how I approach documentation delivery: gather requirements, create a draft, use AI where appropriate, review carefully, and publish with quality and consistency in mind.
 
