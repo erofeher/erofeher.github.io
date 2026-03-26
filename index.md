@@ -18,6 +18,11 @@ Explore my portfolio below to see API documentation, user guides, and real-world
 - Documentation workflows using Markdown and Git-based version control.
 - AI-assisted documentation using GitHub Copilot and ChatGPT.
 
+## Methodology
+
+- [My Approach to Documentation](approach.html)
+- [AI in Technical Writing](ai-documentation.html)
+
 ## Documentation Samples
 
 A curated selection of documentation samples demonstrating API design, user guidance, and support content.
@@ -33,11 +38,6 @@ A curated selection of documentation samples demonstrating API design, user guid
 - [Metadata API Sample](save-metadata-rest-api-sample.html)
 - [Weather API Sample](weather-rest-api-sample.html)
 - [Hydrology API Sample](hydrology-rest-api-sample.html)
-
-## Methodology
-
-- [My Approach to Documentation](approach.html)
-- [AI in Technical Writing](ai-documentation.html)
 
 ## Skills & Technologies
 
