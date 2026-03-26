@@ -1,3 +1,10 @@
+
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/style.css">
+
 # Senior Technical Writer Portfolio
 
 Specializing in developer-focused documentation, structured content, and modern AI-assisted workflows.
