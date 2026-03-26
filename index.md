@@ -1,5 +1,6 @@
-# Erik Feher
+# Senior Technical Writer Portfolio
 
+Erik Feher  
 Senior Technical Writer • API & SaaS Documentation Specialist
 
 Specializing in developer-focused documentation, structured content, and modern AI-assisted workflows.
@@ -38,8 +39,6 @@ A curated selection of documentation samples demonstrating API design, user guid
 - [Hydrology API Sample](hydrology-rest-api-sample.html)
 
 ## Methodology
-
-Overview of my approach to technical documentation, including structure, collaboration, and modern AI-assisted workflows.
 
 - [My Approach to Documentation](approach.html)
 - [AI in Technical Writing](ai-documentation.html)
