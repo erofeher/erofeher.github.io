@@ -34,7 +34,6 @@ A curated selection of documentation samples demonstrating API design, user guid
 ### Additional API Samples
 
 - [Metadata API Sample](save-metadata-rest-api-sample.html)
-- [Analytics Platform API Sample](taipy-rest-api-sample.html)
 - [Weather API Sample](weather-rest-api-sample.html)
 - [Hydrology API Sample](hydrology-rest-api-sample.html)
 
