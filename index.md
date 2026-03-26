@@ -1,6 +1,8 @@
 # Erik Feher
 
-**Senior Technical Writer | API & SaaS Documentation Specialist**
+Senior Technical Writer • API & SaaS Documentation Specialist
+
+Specializing in developer-focused documentation, structured content, and modern AI-assisted workflows.
 
 Senior Technical Writer with 9+ years of experience delivering API, SaaS, and cloud documentation in Agile environments.
 
@@ -8,7 +10,7 @@ I specialize in translating complex technical concepts into clear, user-focused 
 
 I actively leverage AI tools such as GitHub Copilot and ChatGPT to accelerate documentation processes, improve content quality, and support modern documentation practices.
 
-👉 Explore my portfolio below to see API documentation, user guides, and real-world writing samples.
+Explore my portfolio below to see API documentation, user guides, and real-world writing samples.
 
 ## What I Do Best
 
@@ -20,7 +22,7 @@ I actively leverage AI tools such as GitHub Copilot and ChatGPT to accelerate do
 
 ## Documentation Samples
 
-A selection of writing samples demonstrating API documentation, user guidance, and troubleshooting content.
+A curated selection of documentation samples demonstrating API design, user guidance, and support content.
 
 ### Core Samples
 
@@ -42,7 +44,7 @@ Overview of my approach to technical documentation, including structure, collabo
 - [My Approach to Documentation](approach.html)
 - [AI in Technical Writing](ai-documentation.html)
 
-## Skills & Tools
+## Skills & Technologies
 
 ### Documentation & Publishing
 - MadCap Flare (Advanced) – Creating and publishing structured HTML documentation and user guides.
@@ -67,5 +69,5 @@ Overview of my approach to technical documentation, including structure, collabo
 ## Contact
 
 - Email: erofeher11@hotmail.com
-- GitHub: https://github.com/erofeher
-- Portfolio: https://erofeher.github.io
+- GitHub: [github.com/erofeher](https://github.com/erofeher)
+- Portfolio: [erofeher.github.io](https://erofeher.github.io)
