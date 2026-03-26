@@ -1,4 +1,4 @@
-# My Approach to Technical Documentation
+# My Approach to Documentation
 
 ## Overview
 
