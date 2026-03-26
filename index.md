@@ -1,8 +1,5 @@
 # Senior Technical Writer Portfolio
 
-Erik Feher  
-Senior Technical Writer • API & SaaS Documentation Specialist
-
 Specializing in developer-focused documentation, structured content, and modern AI-assisted workflows.
 
 Senior Technical Writer with 9+ years of experience delivering API, SaaS, and cloud documentation in Agile environments.
