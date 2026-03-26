@@ -8,7 +8,7 @@ Modern technical writing is enhanced by AI tools that improve speed, consistency
 
 ## My AI Workflow
 
-![AI Workflow](/mnt/data/ai_workflow_visual.png)
+![AI Workflow](/images/MCP_server.png)
 
 ### Tools I Use
 
