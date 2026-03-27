@@ -18,17 +18,36 @@ I use a structured AI-driven approach that combines developer tools, language mo
 
 My documentation process follows a structured flow combining multiple AI tools:
 
-### 1. Drafting (VSCode + GitHub Copilot)
+### 1. Documentation Delivery & Requirements (Jira & Confluence)
+
+- Managing requirements, epics, and user stories in **Jira**
+- Reviewing HLDs and technical specifications in **Confluence**
+- Gathering all relevant product and engineering context before writing
+- Aligning documentation with the product development lifecycle
+
+---
+
+### 2. Integration with Engineering Workflow (MCP Server)
+
+- Using **Atlassian MCP Server** to:
+  - fetch requirements from **Jira**
+  - access and update documentation in **Confluence**
+  - integrate documentation into real engineering workflows
+- Bridging documentation with live engineering data and systems
+
+---
+
+### 3. Drafting (VSCode + GitHub Copilot)
 
 - Writing documentation in **Markdown using VSCode**
 - Using **GitHub Copilot** to:
   - generate documentation from code context
   - suggest API descriptions and usage examples
-  - accelerate initial drafts
+  - accelerate initial drafts based on requirements and technical inputs
 
 ---
 
-### 2. Content Refinement (ChatGPT)
+### 4. Content Refinement (ChatGPT)
 
 - Using **ChatGPT** to:
   - improve clarity and readability
@@ -38,7 +57,7 @@ My documentation process follows a structured flow combining multiple AI tools:
 
 ---
 
-### 3. Quality & Standards (Vale)
+### 5. Quality & Standards (Vale)
 
 - Using **Vale** to enforce documentation quality:
   - style guide validation
@@ -49,30 +68,13 @@ My documentation process follows a structured flow combining multiple AI tools:
 
 ---
 
-### 4. Integration with Engineering Workflow (MCP Server)
-
-- Using **Atlassian MCP Server** to:
-  - fetch requirements from **Jira**
-  - access and update documentation in **Confluence**
-  - integrate documentation into real engineering workflows
-
----
-
-### 5. Documentation Delivery (Jira & Confluence)
-
-- Managing requirements and tickets in **Jira**
-- Publishing and maintaining documentation in **Confluence**
-- Aligning documentation with product development lifecycle
-
----
-
 ## Key Capabilities
 
 - AI-assisted documentation using GitHub Copilot and ChatGPT  
 - Documentation-as-Code workflows (Markdown + Git)  
 - Automated quality enforcement with Vale  
 - Integration with Jira and Confluence via MCP Server  
-- Scalable and consistent documentation processes  
+- End-to-end documentation lifecycle aligned with product development  
 
 ---
 
