@@ -16,7 +16,7 @@ I actively leverage AI tools such as GitHub Copilot and ChatGPT to accelerate do
 
 ## AI-Assisted Documentation Workflow
 
-![AI Workflow](images/ai_workflow_visual.png)
+![AI Workflow](images/ai_workflow_diagram.png)
 
 I use an AI-assisted workflow that integrates directly with development and documentation tools.
 
