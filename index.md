@@ -60,23 +60,17 @@ A curated selection of documentation samples demonstrating API design, user guid
 
 ## Tools I Use
 
-### AI & Writing Tools
-- GitHub Copilot (VSCode)
-- ChatGPT
+### AI & Writing
+`GitHub Copilot` • `ChatGPT`
 
-### Documentation & Development
-- VSCode
-- Markdown / HTML
-- MadCap Flare
+### Development
+`VSCode` • `Markdown` • `HTML` • `MadCap Flare`
 
-### Collaboration & Platforms
-- Jira
-- Confluence
-- Atlassian MCP Server
+### Collaboration
+`Jira` • `Confluence` • `Atlassian MCP Server`
 
 ### Quality & Workflow
-- GitHub / GitLab
-- Vale
+`GitHub` • `GitLab` • `Vale`
 
 ## Skills & Technologies
 
