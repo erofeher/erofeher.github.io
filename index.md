@@ -18,11 +18,12 @@ Explore my portfolio below to see API documentation, user guides, and real-world
 
 ## What I Do Best
 
-- API documentation for developer-facing products and services.
-- User guides and onboarding documentation for SaaS platforms.
-- Knowledge base and troubleshooting content for customer support.
-- Documentation workflows using Markdown and Git-based version control.
-- AI-assisted documentation using GitHub Copilot and ChatGPT.
+- Building AI-assisted documentation workflows using GitHub Copilot, ChatGPT, and VSCode.
+- Transforming Jira and Confluence data into structured documentation using Atlassian MCP server.
+- Delivering developer-focused API documentation for SaaS and cloud platforms.
+- Creating scalable documentation systems using Docs-as-Code and Git workflows.
+- Writing clear, user-focused guides for complex technical products.
+- Maintaining documentation quality, tone, and consistency using Vale.
 
 ## Methodology
 
