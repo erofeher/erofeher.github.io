@@ -37,10 +37,27 @@ This workflow enables faster delivery, better alignment with engineering teams, 
 - Writing clear, user-focused guides for complex technical products.
 - Maintaining documentation quality, tone, and consistency using Vale.
 
-## Methodology
+## How I Work
 
-- [My Approach to Documentation](approach.html)
-- [AI in Technical Writing](ai-documentation.html)
+I design structured, AI-assisted documentation workflows that integrate directly with engineering processes.
+
+### Documentation Methodology
+- Structured, user-focused documentation approach
+- Documentation-as-Code workflows (Markdown + Git)
+- Scalable content strategy for SaaS platforms
+
+👉 [My Approach to Documentation](approach.html)
+
+---
+
+### AI-Assisted Documentation
+
+- GitHub Copilot for drafting documentation from code
+- ChatGPT for content refinement and clarity
+- Vale for enforcing writing standards
+- MCP Server for Jira & Confluence integration
+
+👉 [AI in Technical Writing](ai-documentation.html)
 
 ## Documentation Samples
 
