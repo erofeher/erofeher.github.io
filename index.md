@@ -1,9 +1,3 @@
----
-layout: default
----
-
-<link rel="stylesheet" href="/assets/style.css">
-
 # Senior Technical Writer Portfolio
 
 Specializing in developer-focused documentation, structured content, and modern AI-assisted workflows.
@@ -14,7 +8,19 @@ I specialize in translating complex technical concepts into clear, user-focused 
 
 I actively leverage AI tools such as GitHub Copilot and ChatGPT to accelerate documentation processes, improve content quality, and support modern documentation practices.
 
-Explore my portfolio below to see API documentation, user guides, and real-world writing samples.
+## AI-Assisted Documentation Workflow
+
+![AI Workflow](images/ai_workflow_visual.png)
+
+I use an AI-assisted workflow that integrates directly with development and documentation tools.
+
+- Drafting and structuring content using GitHub Copilot within VSCode.
+- Refining and improving documentation using ChatGPT.
+- Fetching requirements and context from Jira and Confluence via Atlassian MCP server.
+- Transforming technical inputs into structured, user-focused documentation.
+- Maintaining consistency and quality using Vale.
+
+This workflow enables faster delivery, better alignment with engineering teams, and scalable documentation systems.
 
 ## What I Do Best
 
@@ -45,6 +51,26 @@ A curated selection of documentation samples demonstrating API design, user guid
 - [Metadata API Sample](save-metadata-rest-api-sample.html)
 - [Weather API Sample](weather-rest-api-sample.html)
 - [Hydrology API Sample](hydrology-rest-api-sample.html)
+
+## Tools I Use
+
+### AI & Writing Tools
+- GitHub Copilot (VSCode)
+- ChatGPT
+
+### Documentation & Development
+- VSCode
+- Markdown / HTML
+- MadCap Flare
+
+### Collaboration & Platforms
+- Jira
+- Confluence
+- Atlassian MCP Server
+
+### Quality & Workflow
+- GitHub / GitLab
+- Vale
 
 ## Skills & Technologies
 
