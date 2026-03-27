@@ -26,6 +26,15 @@ Modern technical writing is enhanced by AI tools that improve speed, consistency
 - Fetching requirements from Jira
 - Editing and maintaining documentation in Confluence
 
+### Content Quality & Consistency
+
+I use Vale to enforce writing standards, maintain consistent tone, and improve overall documentation quality.
+
+- Running Vale checks to validate grammar, style, and terminology.
+- Ensuring consistency across large documentation sets.
+- Applying style guides to maintain clear and user-friendly content.
+- Supporting scalable documentation processes with automated quality checks.
+
 ---
 
 ## Benefits
