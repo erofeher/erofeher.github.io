@@ -2,44 +2,84 @@
 
 ## Overview
 
-Modern technical writing is enhanced by AI tools that improve speed, consistency, and collaboration.
+Modern technical writing is increasingly powered by AI-assisted workflows that improve speed, consistency, and collaboration across engineering and product teams.
+
+I use a structured AI-driven approach that combines developer tools, language models, and automated quality checks to produce high-quality, scalable documentation.
+
+---
+
+## AI-Assisted Documentation Workflow
+
+![AI Workflow](/images/MCP_server.png)
 
 ---
 
 ## My AI Workflow
 
-![AI Workflow](/images/MCP_server.png)
+My documentation process follows a structured flow combining multiple AI tools:
 
-### Tools I Use
+### 1. Drafting (VSCode + GitHub Copilot)
 
-- **GitHub Copilot (Advanced)** – used in VSCode for drafting and structuring documentation.
-- **ChatGPT (Advanced)** – used for refining content and ensuring consistency.
+- Writing documentation in **Markdown using VSCode**
+- Using **GitHub Copilot** to:
+  - generate documentation from code context
+  - suggest API descriptions and usage examples
+  - accelerate initial drafts
 
-### Development Workflow
+---
 
-- Writing documentation in Markdown within VSCode
-- Using AI to transform code and requirements into user-friendly docs
+### 2. Content Refinement (ChatGPT)
 
-### Atlassian Integration
+- Using **ChatGPT** to:
+  - improve clarity and readability
+  - restructure complex technical content
+  - adapt tone for different audiences (developers vs end-users)
+  - ensure consistency across documentation
 
-- Using MCP Server to interact with Jira and Confluence
-- Fetching requirements from Jira
-- Editing and maintaining documentation in Confluence
+---
 
-### Content Quality & Consistency
+### 3. Quality & Standards (Vale)
 
-I use Vale to enforce writing standards, maintain consistent tone, and improve overall documentation quality.
+- Using **Vale** to enforce documentation quality:
+  - style guide validation
+  - terminology consistency
+  - grammar and readability checks
+- Automating content validation across documentation sets
+- Ensuring scalable and maintainable documentation standards
 
-- Running Vale checks to validate grammar, style, and terminology.
-- Ensuring consistency across large documentation sets.
-- Applying style guides to maintain clear and user-friendly content.
-- Supporting scalable documentation processes with automated quality checks.
+---
+
+### 4. Integration with Engineering Workflow (MCP Server)
+
+- Using **Atlassian MCP Server** to:
+  - fetch requirements from **Jira**
+  - access and update documentation in **Confluence**
+  - integrate documentation into real engineering workflows
+
+---
+
+### 5. Documentation Delivery (Jira & Confluence)
+
+- Managing requirements and tickets in **Jira**
+- Publishing and maintaining documentation in **Confluence**
+- Aligning documentation with product development lifecycle
+
+---
+
+## Key Capabilities
+
+- AI-assisted documentation using GitHub Copilot and ChatGPT  
+- Documentation-as-Code workflows (Markdown + Git)  
+- Automated quality enforcement with Vale  
+- Integration with Jira and Confluence via MCP Server  
+- Scalable and consistent documentation processes  
 
 ---
 
 ## Benefits
 
-- Faster delivery
-- Higher consistency
-- Better developer alignment
-- Scalable documentation processes
+- Faster documentation delivery  
+- Improved consistency and quality  
+- Better alignment with development teams  
+- Reduced manual effort through automation  
+- Scalable documentation workflows for modern SaaS environments  
