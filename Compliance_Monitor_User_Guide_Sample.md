@@ -1,9 +1,9 @@
 # Compliance Monitor – User Guide
 
 **Product:** Compliance Monitor  
-**Version:** 10.x  
+**Version:** XY  
 **Audience:** Compliance Analysts, Investigators, Administrators  
-**Document Type:** User Guide Sample (Generic – No Confidential Information)
+**Document Type:** User Guide Sample
 
 > **Note on structure:** This guide is organized into five parts reflecting the natural user journey — from onboarding (Part I), through day-to-day investigation work (Part II), to research and analytics (Part III), system configuration (Part IV), and administration (Part V).
 
@@ -1342,19 +1342,3 @@ To use a query template in the Policy Manager:
 6. Validate and save the rule.
 
 Templates cannot be modified directly; they serve as read-only starting points. Customizations become part of the rule definition.
-
----
-
-*End of Document*
-
----
-
-**Document Control**
-
-| Field | Value |
-|---|---|
-| Document Title | Compliance Monitor – User Guide Sample |
-| Version | 1.0 |
-| Date | March 2026 |
-| Status | Sample / Generic – Not for Production Use |
-| Classification | Non-Confidential |
