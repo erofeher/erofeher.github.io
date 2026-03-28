@@ -247,7 +247,7 @@ img {
 /* ===== Workflow ===== */
 .workflow-box {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-columns: 1.1fr 0.9fr;
   gap: 24px;
   padding: 24px;
   align-items: center;
