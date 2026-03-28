@@ -69,6 +69,7 @@ A curated selection of documentation samples demonstrating API design, user guid
 
 - [API Documentation Sample – Payment Service](api-docs.html)
 - [User Guide Sample – Getting Started with Workspace Hub](user-guide.html)
+- [User Guide Sample – Compliance Monitor](Compliance_Monitor_User_Guide_Sample.html)
 - [Troubleshooting Guide Sample – Common Access Issues](troubleshooting.html)
 
 ### Additional API Samples
