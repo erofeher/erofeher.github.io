@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <link rel="stylesheet" href="/assets/style.css">
 
 # Senior Technical Writer Portfolio
