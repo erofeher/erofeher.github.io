@@ -33,10 +33,10 @@ How I use AI tools to support drafting, editing, and documentation workflows wit
 
 👉 [Explore](ai-documentation.html)
 
-### API Samples
-Examples of developer-focused documentation and API references.
+### Documentation samples
+Examples of developer-focused documentation, API references, and user guidance.
 
-👉 [View samples](api-docs.html)
+👉 [View samples](documentation-samples.html)
 
 ## How I work
 
@@ -52,22 +52,6 @@ My workflow combines:
 ![AI Workflow](images/ai_workflow_diagram.png)
 
 This approach helps me align documentation with product and engineering teams while keeping content maintainable, consistent, and scalable.
-
-## Documentation samples
-
-Selected examples demonstrating API documentation, user guidance, and troubleshooting content.
-
-### Core samples
-
-- [API Documentation Sample – Payment Service](api-docs.html)
-- [User Guide Sample – Compliance Monitor](Compliance_Monitor_User_Guide_Sample.html)
-- [Troubleshooting Guide Sample – Common Access Issues](troubleshooting.html)
-
-### Additional API samples
-
-- [Metadata API Sample](save-metadata-rest-api-sample.html)
-- [Weather API Sample](weather-rest-api-sample.html)
-- [Hydrology API Sample](hydrology-rest-api-sample.html)
 
 ## Tools I use
 
