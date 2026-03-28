@@ -90,7 +90,7 @@ title: Home
   </div>
 </div>
 
-## Tools and workflow
+## Tools I use
 
 <div class="tag-row">
   <span>VSCode</span>
@@ -111,40 +111,40 @@ title: Home
   <div class="feature-card">
     <h3>Documentation & Publishing</h3>
     <ul>
-      <li>MadCap Flare (Advanced) – Creating and publishing structured HTML documentation and user guides.</li>
-      <li>Markdown / HTML (Advanced) – Writing structured, maintainable documentation content.</li>
-      <li>VSCode (Advanced) – Authoring and managing documentation in Markdown-based workflows.</li>
+      <li>MadCap Flare (Advanced): Creating and publishing structured HTML documentation and user guides.</li>
+      <li>Markdown / HTML (Advanced): Writing structured, maintainable documentation content.</li>
+      <li>VSCode (Advanced): Authoring and managing documentation in Markdown-based workflows.</li>
     </ul>
   </div>
 
   <div class="feature-card">
     <h3>Version Control & Workflow</h3>
     <ul>
-      <li>GitHub / GitLab (Advanced) – Managing documentation using Git-based workflows and version control.</li>
-      <li>Documentation-as-Code – Maintaining structured documentation in collaborative environments.</li>
+      <li>GitHub / GitLab (Advanced): Managing documentation using Git-based workflows and version control.</li>
+      <li>Documentation-as-Code: Maintaining structured documentation in collaborative environments.</li>
     </ul>
   </div>
 
   <div class="feature-card">
     <h3>Knowledge Base & Support Content</h3>
     <ul>
-      <li>Zendesk (Advanced) – Managing and maintaining knowledge base content.</li>
-      <li>Intercom (Advanced) – Creating and structuring customer-facing help center content.</li>
+      <li>Zendesk (Advanced): Managing and maintaining knowledge base content.</li>
+      <li>Intercom (Advanced): Creating and structuring customer-facing help center content.</li>
     </ul>
   </div>
 
   <div class="feature-card">
     <h3>AI-Assisted Documentation</h3>
     <ul>
-      <li>GitHub Copilot (Advanced) – AI-assisted content creation and documentation drafting within development workflows.</li>
-      <li>ChatGPT (Advanced) – Supporting documentation workflows, content structuring, and editing.</li>
+      <li>GitHub Copilot (Advanced): AI-assisted content creation and documentation drafting within development workflows.</li>
+      <li>ChatGPT (Advanced): Supporting documentation workflows, content structuring, and editing.</li>
     </ul>
   </div>
 
   <div class="feature-card">
     <h3>Multimedia & Training Content</h3>
     <ul>
-      <li>Camtasia (Advanced) – Creating video tutorials and training materials for documentation.</li>
+      <li>Camtasia (Advanced): Creating video tutorials and training materials for documentation.</li>
     </ul>
   </div>
 </div>
