@@ -3,6 +3,47 @@
 
 @import "minima";
 
+/* === CUSTOM COMPONENTS === */
+
+.section {
+  margin-top: 40px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  background: #eef2ff;
+  border-left: 4px solid #3b82f6;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.step {
+  padding: 16px;
+  border-left: 3px solid #3b82f6;
+  margin-bottom: 16px;
+}
+
+.tag {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #1e3a8a;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
 /* Global */
 body {
   background: linear-gradient(180deg, #f7f9fc 0%, #eef3f9 100%);
