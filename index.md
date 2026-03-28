@@ -7,7 +7,7 @@ title: Home
 
 <div class="hero">
   <p class="eyebrow">Technical Writer • API • SaaS • Docs-as-Code</p>
-  <h1>Clear documentation for modern software products</h1>
+  <h1>Erik Feher - Senior Technical Writer Portfolio</h1>
   <p class="hero-lead">
     I create scalable documentation for API, SaaS, and cloud teams — from developer guides and reference content to structured documentation workflows supported by AI.
   </p>
