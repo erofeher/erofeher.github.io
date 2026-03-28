@@ -73,6 +73,28 @@ Selected examples demonstrating API documentation, user guidance, and troublesho
 
 `VSCode` • `Markdown` • `GitHub` • `GitLab` • `Jira` • `Confluence` • `Vale` • `GitHub Copilot` • `ChatGPT` • `Atlassian MCP Server`
 
+## Skills & Technologies
+
+### Documentation & Publishing
+- MadCap Flare (Advanced) – Creating and publishing structured HTML documentation and user guides.
+- Markdown / HTML (Advanced) – Writing structured, maintainable documentation content.
+- VSCode (Advanced) – Authoring and managing documentation in Markdown-based workflows.
+
+### Version Control & Workflow
+- GitHub / GitLab (Advanced) – Managing documentation using Git-based workflows and version control.
+- Documentation-as-Code – Maintaining structured documentation in collaborative environments.
+
+### Knowledge Base & Support Content
+- Zendesk (Advanced) – Managing and maintaining knowledge base content.
+- Intercom (Advanced) – Creating and structuring customer-facing help center content.
+
+### AI-Assisted Documentation
+- GitHub Copilot (Advanced) – AI-assisted content creation and documentation drafting within development workflows.
+- ChatGPT (Advanced) – Supporting documentation workflows, content structuring, and editing.
+
+### Multimedia & Training Content
+- Camtasia (Advanced) – Creating video tutorials and training materials for documentation.
+
 ## Contact
 
 - Email: erofeher11@hotmail.com
