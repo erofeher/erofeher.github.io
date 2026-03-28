@@ -1,7 +1,4 @@
----
-layout: default
-title: My Approach to Documentation
----
+# My Approach to Documentation
 
 ## Overview
 
