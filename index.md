@@ -69,7 +69,7 @@ Selected examples demonstrating API documentation, user guidance, and troublesho
 - [Weather API Sample](weather-rest-api-sample.html)
 - [Hydrology API Sample](hydrology-rest-api-sample.html)
 
-## Tools and workflow
+## Tools I use
 
 `VSCode` • `Markdown` • `GitHub` • `GitLab` • `Jira` • `Confluence` • `Vale` • `GitHub Copilot` • `ChatGPT` • `Atlassian MCP Server`
 
