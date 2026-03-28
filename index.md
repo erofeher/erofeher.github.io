@@ -30,12 +30,14 @@ This workflow enables faster delivery, better alignment with engineering teams, 
 
 ## What I Do Best
 
-- Building AI-assisted documentation workflows using GitHub Copilot, ChatGPT, and VSCode.
-- Transforming Jira and Confluence data into structured documentation using Atlassian MCP server.
-- Delivering developer-focused API documentation for SaaS and cloud platforms.
-- Creating scalable documentation systems using Docs-as-Code and Git workflows.
-- Writing clear, user-focused guides for complex technical products.
-- Maintaining documentation quality, tone, and consistency using Vale.
+I specialize in building AI-driven documentation systems that scale across modern SaaS and engineering environments.
+
+- Designing end-to-end AI-assisted documentation workflows (Copilot, ChatGPT, Vale).
+- Integrating documentation with engineering systems (Jira, Confluence, MCP Server).
+- Creating developer-first API documentation for SaaS and cloud products.
+- Building scalable Docs-as-Code documentation systems (Markdown + Git).
+- Translating complex technical concepts into clear, user-focused content.
+- Enforcing documentation quality and consistency through automated tooling (Vale).
 
 ## How I Work
 
