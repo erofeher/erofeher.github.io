@@ -81,7 +81,7 @@ title: Home
           into content that is precise, practical, and easy to navigate.
         </p>
 
-        <a class="cv-button" href="documentation-samples.html">
+        <a class="cv-button" href="Erik_Feher_CV.pdf">
           <span class="cv-button-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none">
               <path d="M12 3v10.2m0 0l4-4m-4 4l-4-4M5 15.5v2.3c0 .66.54 1.2 1.2 1.2h11.6c.66 0 1.2-.54 1.2-1.2v-2.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
