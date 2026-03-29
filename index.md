@@ -20,14 +20,31 @@ title: Home
         <p class="profile-role">Senior Technical Writer</p>
         <p class="profile-org">OpenAI</p>
 
-        <div class="social-links">
-          <a href="mailto:erofeher11@hotmail.com" aria-label="Email">@</a>
-          <a href="https://x.com" aria-label="X">X</a>
-          <a href="https://instagram.com" aria-label="Instagram">◎</a>
-          <a href="https://github.com/erofeher" aria-label="GitHub">G</a>
-          <a href="https://linkedin.com" aria-label="LinkedIn">in</a>
-          <a href="#" aria-label="Google Scholar">g</a>
-          <a href="#" aria-label="Additional link">ID</a>
+        <div class="social-links" aria-label="Social links">
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </span>
+
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+          </span>
+
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 2a10 10 0 00-3 19c.5.1.7-.2.7-.5v-2c-3 .6-3.7-1.4-3.7-1.4-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1 .1 1.6 1.1 1.6 1.1.9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.7-1.4-2.4-.3-5-1.2-5-5.4 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3 0 0 .9-.3 3 .9a10 10 0 015.5 0c2.1-1.2 3-.9 3-.9.6 1.5.2 2.7.1 3 .7.8 1.1 1.8 1.1 3 0 4.2-2.6 5.1-5 5.4.4.3.8 1 .8 2v3c0 .3.2.6.7.5A10 10 0 0012 2z" stroke="currentColor" stroke-width="1.2"/>
+            </svg>
+          </span>
+
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M6 9v9M6 6v.01M10 9v9M10 12c0-2 4-2 4 0v6" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </span>
         </div>
       </aside>
 
