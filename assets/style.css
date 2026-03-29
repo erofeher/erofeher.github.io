@@ -265,3 +265,10 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
     padding: 52px 24px 72px;
   }
 }
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 999px;
+}
