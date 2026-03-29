@@ -277,3 +277,7 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 .profile-photo::after {
   display: none;
 }
+
+.social-row {
+  display: none;
+}
