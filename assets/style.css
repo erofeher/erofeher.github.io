@@ -158,8 +158,6 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
   z-index: 1;
   min-height: calc(100vh - 86px);
   padding: 88px 76px 110px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .hero-grid {
