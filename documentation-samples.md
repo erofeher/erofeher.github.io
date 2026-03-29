@@ -11,7 +11,6 @@ Selected examples demonstrating API documentation, user guidance, and troublesho
 
 - [API Documentation Sample – Payment Service](api-docs.html)
 - [User Guide Sample – Compliance Monitor](Compliance_Monitor_User_Guide_Sample.html)
-- [Troubleshooting Guide Sample – Common Access Issues](troubleshooting.html)
 
 ## Additional API samples
 
