@@ -92,11 +92,14 @@ title: Home
 
         <div class="hero-meta-grid">
           <section>
-            <h2 class="meta-block-title">Interests</h2>
+            <h2 class="meta-block-title">What I'm Doing</h2>
             <ul class="bullet-list">
-              <li>Artificial Intelligence</li>
-              <li>Computational Linguistics</li>
-              <li>Information Retrieval</li>
+              <li>Designing end-to-end AI-assisted documentation workflows (Copilot, ChatGPT, Vale)</li>
+              <li>Integrating documentation with engineering systems (Jira, Confluence, MCP Server)</li>
+              <li>Creating developer-first API documentation for SaaS and cloud products</li>
+              <li>Building scalable Docs-as-Code documentation systems (Markdown + Git)</li>
+              <li>Translating complex technical concepts into clear, user-focused content</li>
+              <li>Enforcing documentation quality and consistency through automated tooling (Vale)</li>
             </ul>
           </section>
 
