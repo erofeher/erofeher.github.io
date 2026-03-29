@@ -1,9 +1,4 @@
 title: Erik Feher – Senior Technical Writer
 description: Portfolio of a Senior Technical Writer specializing in API and SaaS documentation
 theme: minima
-
-header_pages:
-  - index.md
-  - approach.md
-  - ai-documentation.md
-  - documentation-samples.md
+header_pages: []
