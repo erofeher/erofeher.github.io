@@ -274,3 +274,30 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 .profile-photo::after {
   display: none;
 }
+
+
+.tool-group {
+  margin: 0 0 16px;
+  max-width: 320px;
+}
+
+.tool-group:last-child {
+  margin-bottom: 0;
+}
+
+.tool-group strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--hero-text);
+  font-size: 0.98rem;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.tool-group p {
+  margin: 0;
+  color: var(--hero-muted);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  word-break: break-word;
+}
