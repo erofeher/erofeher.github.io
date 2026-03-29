@@ -111,7 +111,7 @@ title: Home
 
             <div class="tool-group">
               <strong>Development</strong>
-              <p>VSCode • Markdown • HTML • MadCap Flare</p>
+              <p>VSCode • Markdown • MadCap Flare</p>
             </div>
 
             <div class="tool-group">
@@ -121,7 +121,7 @@ title: Home
 
             <div class="tool-group">
               <strong>Quality &amp; Workflow</strong>
-              <p>GitHub • GitLab • Vale • Postman</p>
+              <p>GitHub • GitKraken • Vale • Postman</p>
             </div>
           </section>
         </div>
