@@ -22,23 +22,36 @@ title: AI-Assisted Documentation
       <main class="content-column">
         <span class="section-kicker">Workflow</span>
         <h1 class="hero-section-title">AI-Assisted Documentation</h1>
-        <p class="about-text">Use this page to explain how you integrate ChatGPT, Copilot, automation, and review loops into your writing process without sacrificing accuracy, consistency, or editorial quality.</p>
+
+        <p class="about-text">
+          I use an AI-assisted workflow that integrates directly with development and documentation tools.
+        </p>
 
         <div class="subpage-stack">
+
+          <section class="subpage-card">
+            <img src="{{ "/images/ai_workflow_diagram.png" | relative_url }}" alt="AI Workflow" style="width:100%; border-radius:12px; margin-bottom:20px;">
+          </section>
+
           <section class="subpage-list">
-            <h2>Where AI Helps</h2>
+            <h2>Workflow Overview</h2>
             <ul>
-              <li>First-draft generation for repetitive content structures</li>
-              <li>Rewriting for clarity, consistency, and tone</li>
-              <li>Content gap analysis and outline creation</li>
-              <li>Terminology alignment and editing support</li>
+              <li>Drafting and structuring content using GitHub Copilot within VSCode.</li>
+              <li>Refining and improving documentation using ChatGPT.</li>
+              <li>Fetching requirements and context from Jira and Confluence via Atlassian MCP server.</li>
+              <li>Transforming technical inputs into structured, user-focused documentation.</li>
+              <li>Maintaining consistency and quality using Vale.</li>
             </ul>
           </section>
 
           <section class="subpage-card">
-            <h2>How You Keep Quality High</h2>
-            <p>Describe your human review process, fact-checking standards, SME validation, and governance rules for AI-generated content.</p>
+            <h2>Impact</h2>
+            <p>
+              This workflow enables faster delivery, better alignment with engineering teams,
+              and scalable documentation systems.
+            </p>
           </section>
+
         </div>
       </main>
     </div>
