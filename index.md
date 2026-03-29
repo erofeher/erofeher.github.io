@@ -10,8 +10,9 @@ title: Home
     <div class="hero-grid">
       <aside class="profile-column">
         <div class="profile-photo-wrap">
-          <div class="profile-photo"></div>
-          <div class="photo-badge">☕</div>
+          <div class="profile-photo">
+            <img src="{{ "/images/profile.jpg" | relative_url }}" alt="Profile photo">
+          </div>
         </div>
 
         <p class="profile-name-main">Erik Feher</p>
