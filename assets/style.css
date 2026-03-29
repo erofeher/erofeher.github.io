@@ -122,7 +122,7 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 }
 .cv-button {
   display: inline-flex; align-items: center; gap: 10px; margin: 8px 0 34px; padding: 14px 22px;
-  border-radius: 12px; text-decoration: none; color: #eff6ff; background: var(--btn); border: 1px solid var(--btn-border); font-weight: 700;
+  border-radius: 12px; text-decoration: none; color: var(--hero-text); background: var(--btn); border: 1px solid var(--btn-border); font-weight: 700;
 }
 .cv-button-icon svg { width: 18px; height: 18px; }
 .subpage-card, .subpage-list {
