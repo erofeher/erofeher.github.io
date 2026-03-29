@@ -272,3 +272,8 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
   object-fit: cover;
   border-radius: 999px;
 }
+
+.profile-photo::before,
+.profile-photo::after {
+  display: none;
+}
