@@ -16,7 +16,6 @@ title: Home
         </div>
 
         <p class="profile-name-main">Erik Feher</p>
-        <p class="profile-name-alt">EF</p>
         <p class="profile-role">Senior Technical Writer</p>
         <p class="profile-org">OpenAI</p>
 
