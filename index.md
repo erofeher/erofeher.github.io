@@ -63,7 +63,7 @@ title: Home
   </main>
 </section>
 
-<section class="content-section">
+<section id="portfolio-sections" class="content-section">
   <h2>Portfolio Sections</h2>
 
   <div class="card-grid">
@@ -87,7 +87,7 @@ title: Home
   </div>
 </section>
 
-<section class="content-section">
+<section id="how-i-work" class="content-section">
   <h2>How I work</h2>
 
   <div class="workflow-layout">
@@ -111,7 +111,7 @@ title: Home
   </div>
 </section>
 
-<section class="content-section">
+<section id="skills-technologies" class="content-section">
   <h2>Skills &amp; Technologies</h2>
 
   <div class="skills-grid">
@@ -157,7 +157,7 @@ title: Home
   </div>
 </section>
 
-<section class="content-section">
+<section id="tools-workflow" class="content-section">
   <h2>Tools and workflow</h2>
 
   <div class="tag-row">
