@@ -106,7 +106,7 @@ title: Home
 
             <div class="tool-group">
               <strong>AI &amp; Writing</strong>
-              <p>GitHub Copilot • ChatGPT</p>
+              <p>GitHub Copilot • Atlassian MCP Server</p>
             </div>
 
             <div class="tool-group">
@@ -115,8 +115,8 @@ title: Home
             </div>
 
             <div class="tool-group">
-              <strong>Collaboration</strong>
-              <p>Jira • Confluence • Atlassian MCP Server</p>
+              <strong>Knowledge Base & Support Content</strong>
+              <p>Zendesk • Intercom • MkDocs</p>
             </div>
 
             <div class="tool-group">
