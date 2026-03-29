@@ -102,7 +102,7 @@ title: Home
           </section>
 
           <section>
-            <h2 class="meta-block-title">Education</h2>
+            <h2 class="meta-block-title">Tools I Use</h2>
             <ul class="education-list">
               <li>
                 <strong>MSc Technical Communication</strong>
