@@ -3,15 +3,15 @@ layout: default
 title: Home
 ---
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
-<div class="home-page">
-  <section class="hero-stage" id="bio">
-    <div class="hero-grid wrapper">
+<section class="hero-stage">
+  <div class="hero-shell wrapper">
+    <div class="hero-grid">
       <aside class="profile-column">
         <div class="profile-photo-wrap">
-          <div class="profile-photo" aria-label="Profile photo placeholder"></div>
-          <div class="photo-badge" aria-hidden="true">☕</div>
+          <div class="profile-photo"></div>
+          <div class="photo-badge">☕</div>
         </div>
 
         <p class="profile-name-main">Erik Feher</p>
@@ -19,14 +19,14 @@ title: Home
         <p class="profile-role">Senior Technical Writer</p>
         <p class="profile-org">OpenAI</p>
 
-        <div class="social-row" aria-label="Social links">
-          <a class="social-icon" href="mailto:erofeher11@hotmail.com">@</a>
-          <a class="social-icon" href="https://x.com">X</a>
-          <a class="social-icon" href="https://instagram.com">◎</a>
-          <a class="social-icon" href="https://github.com/erofeher">G</a>
-          <a class="social-icon" href="https://linkedin.com">in</a>
-          <a class="social-icon" href="#">g</a>
-          <a class="social-icon" href="#">ID</a>
+        <div class="social-links">
+          <a href="mailto:erofeher11@hotmail.com" aria-label="Email">@</a>
+          <a href="https://x.com" aria-label="X">X</a>
+          <a href="https://instagram.com" aria-label="Instagram">◎</a>
+          <a href="https://github.com/erofeher" aria-label="GitHub">G</a>
+          <a href="https://linkedin.com" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Google Scholar">g</a>
+          <a href="#" aria-label="Additional link">ID</a>
         </div>
       </aside>
 
@@ -46,6 +46,11 @@ title: Home
         </p>
 
         <a class="cv-button" href="documentation-samples.html">
+          <span class="cv-button-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 3v10.2m0 0l4-4m-4 4l-4-4M5 15.5v2.3c0 .66.54 1.2 1.2 1.2h11.6c.66 0 1.2-.54 1.2-1.2v-2.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
           Download CV
         </a>
 
@@ -79,8 +84,8 @@ title: Home
         </div>
       </main>
     </div>
-  </section>
-</div>
+  </div>
+</section>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
