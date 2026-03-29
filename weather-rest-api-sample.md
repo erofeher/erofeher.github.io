@@ -1,51 +1,47 @@
-# Weather API
+---
+layout: default
+title: Weather API
+---
 
 ## Overview
 
-The Weather API provides access to current weather conditions and forecast data for specific locations.  
+The Weather API provides access to current weather conditions and forecast data for specific locations.
+
 It is designed for applications that require real-time weather insights and future predictions.
 
-Base URL:
+## Base URL
 
-```
+```text
 https://api.example.com/v1
 ```
 
----
-
 ## Authentication
 
-All requests require an API key passed in the header:
+All requests require an API key passed in the header.
 
-```
+```http
 Authorization: Bearer YOUR_API_KEY
 ```
 
----
-
 ## Endpoints
 
-### GET /weather/current
+### `GET /weather/current`
 
-Retrieve current weather conditions for a specific location.
+Retrieves current weather conditions for a specific location.
 
-#### Query Parameters
+#### Query parameters
 
-| Name     | Type   | Required | Description                         |
-|----------|--------|----------|-------------------------------------|
-| location | string | Yes      | Name of the city or location        |
+| Name | Type | Required | Description |
+|---|---|---|---|
+| `location` | string | Yes | Name of the city or location |
 
----
+#### Example request
 
-#### Example Request
-
-```
+```http
 GET /weather/current?location=NewYork
 ```
 
----
-
-#### Example Response
+#### Example response
 
 ```json
 {
@@ -57,29 +53,23 @@ GET /weather/current?location=NewYork
 }
 ```
 
----
+### `GET /weather/forecast`
 
-## GET /weather/forecast
+Retrieves a 7-day weather forecast for a specific location.
 
-Retrieve a 7-day weather forecast for a specific location.
+#### Query parameters
 
-#### Query Parameters
+| Name | Type | Required | Description |
+|---|---|---|---|
+| `location` | string | Yes | Name of the city or location |
 
-| Name     | Type   | Required | Description                         |
-|----------|--------|----------|-------------------------------------|
-| location | string | Yes      | Name of the city or location        |
+#### Example request
 
----
-
-#### Example Request
-
-```
+```http
 GET /weather/forecast?location=NewYork
 ```
 
----
-
-#### Example Response
+#### Example response
 
 ```json
 {
@@ -101,32 +91,24 @@ GET /weather/forecast?location=NewYork
 }
 ```
 
----
-
-## Rate Limits
+## Rate limits
 
 The API allows up to **100 requests per hour per IP address**.
 
 If the limit is exceeded, the API returns:
 
-```
+```text
 429 Too Many Requests
 ```
 
----
+## Error handling
 
-## Error Handling
-
-The API may return the following error responses:
-
-| Status Code | Description                          |
-|------------|--------------------------------------|
-| 400        | Bad Request – Missing parameters      |
-| 404        | Not Found – Invalid location          |
-| 429        | Too Many Requests – Rate limit hit    |
-| 500        | Internal Server Error                 |
-
----
+| Status code | Description |
+|---|---|
+| 400 | Bad Request – Missing parameters |
+| 404 | Not Found – Invalid location |
+| 429 | Too Many Requests – Rate limit hit |
+| 500 | Internal Server Error |
 
 ## Notes
 
@@ -134,8 +116,6 @@ The API may return the following error responses:
 - Implement caching for frequently requested data.
 - Always handle API errors gracefully in your application.
 
----
-
-## About This Sample
+## About this sample
 
 This is a sanitized API documentation sample created for portfolio purposes, demonstrating structure, clarity, and best practices in technical writing.

@@ -1,68 +1,60 @@
-# Metadata Mapping API
+---
+layout: default
+title: Metadata Mapping API
+---
 
 ## Overview
 
-The Metadata Mapping API allows saving mapping configurations for specific work item types.  
+The Metadata Mapping API allows saving mapping configurations for specific work item types.
+
 These mappings define how external system data fields are mapped to internal platform fields.
 
-The API enables:
-- Mapping external alert data to internal data structures.
-- Supporting structured ingestion of incoming data.
-- Reusing mapping configurations for future processing.
-
----
+The API enables you to:
+- Map external alert data to internal data structures
+- Support structured ingestion of incoming data
+- Reuse mapping configurations for future processing
 
 ## Base URL
 
-```
+```text
 https://api.example.com/v1
 ```
 
----
-
 ## Authentication
 
-All requests require authentication via API key:
+All requests require authentication via API key.
 
-```
+```http
 Authorization: Bearer YOUR_API_KEY
 ```
 
----
-
 ## Endpoint
 
-### POST /md/work-item-types/{workItemTypeIdentifier}/mappings
+### `POST /md/work-item-types/{workItemTypeIdentifier}/mappings`
 
-Save a metadata mapping configuration for a specific work item type.
+Saves a metadata mapping configuration for a specific work item type.
 
----
+## Path parameters
 
-## Path Parameters
+| Name | Type | Required | Description |
+|---|---|---|---|
+| `workItemTypeIdentifier` | string | Yes | Identifier of the work item type to map |
 
-| Name                   | Type   | Required | Description                                      |
-|------------------------|--------|----------|--------------------------------------------------|
-| workItemTypeIdentifier | string | Yes      | Identifier of the work item type to map          |
-
----
-
-## Request Body
+## Request body
 
 The request body must contain a JSON object with mapping configuration details.
 
-### Required Fields
+### Required fields
 
-| Name        | Type    | Description                                   |
-|------------|--------|-----------------------------------------------|
-| name        | string | Unique mapping name                           |
-| sampleData  | object | Example input data                            |
-| fileType    | string | Must be `JSON`                                |
-| draft       | boolean| Indicates draft or production mapping         |
-| root        | object | Root mapping configuration                    |
+| Name | Type | Description |
+|---|---|---|
+| `name` | string | Unique mapping name |
+| `sampleData` | object | Example input data |
+| `fileType` | string | Must be `JSON` |
+| `draft` | boolean | Indicates draft or production mapping |
+| `root` | object | Root mapping configuration |
 
----
-
-## Example Request
+### Example request
 
 ```json
 {
@@ -84,8 +76,6 @@ The request body must contain a JSON object with mapping configuration details.
 }
 ```
 
----
-
 ## Response
 
 ```json
@@ -94,29 +84,22 @@ The request body must contain a JSON object with mapping configuration details.
 }
 ```
 
----
-
-## Mapping Behavior
+## Mapping behavior
 
 - If `draft` is set to `true`, the mapping is saved as a draft.
 - If `draft` is set to `false`, the mapping is saved as production.
 - Existing mappings with the same name are replaced.
 
----
-
-## Business Unit Requirement
+## Business unit requirement
 
 A default Business Unit (BU) must be provided for each object.
 
-It can be defined in one of the following ways:
+You can define it in one of the following ways:
+1. As a mapped field in the request body
+2. As a query parameter
+3. Directly in the mapping configuration
 
-1. As a mapped field in the request body.
-2. As a query parameter.
-3. Directly in the mapping configuration.
-
----
-
-## Example Configuration
+### Example configuration
 
 ```json
 {
@@ -137,27 +120,21 @@ It can be defined in one of the following ways:
 }
 ```
 
----
+## Error handling
 
-## Error Handling
-
-| Status Code | Description                          |
-|------------|--------------------------------------|
-| 400        | Bad Request – Invalid input           |
-| 401        | Unauthorized – Missing API key        |
-| 404        | Not Found – Invalid identifier        |
-| 500        | Internal Server Error                 |
-
----
+| Status code | Description |
+|---|---|
+| 400 | Bad Request – Invalid input |
+| 401 | Unauthorized – Missing API key |
+| 404 | Not Found – Invalid identifier |
+| 500 | Internal Server Error |
 
 ## Notes
 
-- Ensure JSON structure is valid before submitting requests.
+- Ensure the JSON structure is valid before submitting requests.
 - Validate field mappings to avoid type mismatches.
 - Use consistent naming for mapping configurations.
 
----
-
-## About This Sample
+## About this sample
 
 This is a sanitized API documentation sample created for portfolio purposes, demonstrating structure, clarity, and best practices in technical writing.

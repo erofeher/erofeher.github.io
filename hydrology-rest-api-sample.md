@@ -1,49 +1,47 @@
-# Hydrology API
+---
+layout: default
+title: Hydrology API
+---
 
 ## Overview
 
-The Hydrology API provides access to watershed information, precipitation records, and streamflow data through REST endpoints.  
+The Hydrology API provides access to watershed information, precipitation records, and streamflow data through REST endpoints.
+
 It is designed for applications and workflows that require structured environmental data for analysis, monitoring, and reporting.
 
 This API enables users to:
-- Retrieve available watersheds.
-- Access historical precipitation data.
-- Access historical streamflow data.
-- Work with JSON-based responses for downstream analysis.
-
----
+- Retrieve available watersheds
+- Access historical precipitation data
+- Access historical streamflow data
+- Work with JSON-based responses for downstream analysis
 
 ## Base URL
 
-```
+```text
 https://api.example.com/v1
 ```
 
----
-
 ## Authentication
 
-All requests require authentication via API key:
+All requests require authentication via API key.
 
-```
+```http
 Authorization: Bearer YOUR_API_KEY
 ```
 
----
-
 ## Endpoints
 
-### GET /watersheds
+### `GET /watersheds`
 
-Retrieve a list of available watersheds.
+Retrieves a list of available watersheds.
 
-#### Example Request
+#### Example request
 
-```
+```http
 GET /watersheds
 ```
 
-#### Example Response
+#### Example response
 
 ```json
 {
@@ -62,37 +60,33 @@ GET /watersheds
 }
 ```
 
----
+### `GET /watersheds/{id}`
 
-### GET /watersheds/{id}
+Retrieves information about a specific watershed by ID.
 
-Retrieve information about a specific watershed by ID.
-
-#### Path Parameters
+#### Path parameters
 
 | Name | Type | Required | Description |
-|------|------|----------|-------------|
-| id   | int  | Yes      | Watershed identifier |
+|---|---|---|---|
+| `id` | int | Yes | Watershed identifier |
 
----
+### `GET /precipitation/{watershed_id}`
 
-### GET /precipitation/{watershed_id}
+Retrieves historical precipitation data for a specific watershed.
 
-Retrieve historical precipitation data for a specific watershed.
+#### Path parameters
 
-#### Path Parameters
+| Name | Type | Required | Description |
+|---|---|---|---|
+| `watershed_id` | int | Yes | Watershed identifier |
 
-| Name         | Type | Required | Description |
-|--------------|------|----------|-------------|
-| watershed_id | int  | Yes      | Watershed identifier |
+#### Example request
 
-#### Example Request
-
-```
+```http
 GET /precipitation/1
 ```
 
-#### Example Response
+#### Example response
 
 ```json
 {
@@ -110,25 +104,23 @@ GET /precipitation/1
 }
 ```
 
----
+### `GET /streamflow/{watershed_id}`
 
-### GET /streamflow/{watershed_id}
+Retrieves historical streamflow data for a specific watershed.
 
-Retrieve historical streamflow data for a specific watershed.
+#### Path parameters
 
-#### Path Parameters
+| Name | Type | Required | Description |
+|---|---|---|---|
+| `watershed_id` | int | Yes | Watershed identifier |
 
-| Name         | Type | Required | Description |
-|--------------|------|----------|-------------|
-| watershed_id | int  | Yes      | Watershed identifier |
+#### Example request
 
-#### Example Request
-
-```
+```http
 GET /streamflow/1
 ```
 
-#### Example Response
+#### Example response
 
 ```json
 {
@@ -146,34 +138,26 @@ GET /streamflow/1
 }
 ```
 
----
-
-## Rate Limits
+## Rate limits
 
 The API supports tier-based rate limits:
 
 - Free tier: **100 requests per minute**
 - Premium tier: **500 requests per minute**
 
----
-
-## Response Format
+## Response format
 
 All responses are returned in **JSON** format and may include metadata such as timestamps, units, and watershed identifiers.
 
----
+## Error handling
 
-## Error Handling
-
-| Status Code | Description |
-|-------------|-------------|
-| 400         | Bad Request – Invalid request parameters |
-| 401         | Unauthorized – Missing API key |
-| 404         | Not Found – Watershed or resource not found |
-| 429         | Too Many Requests – Rate limit exceeded |
-| 500         | Internal Server Error |
-
----
+| Status code | Description |
+|---|---|
+| 400 | Bad Request – Invalid request parameters |
+| 401 | Unauthorized – Missing API key |
+| 404 | Not Found – Watershed or resource not found |
+| 429 | Too Many Requests – Rate limit exceeded |
+| 500 | Internal Server Error |
 
 ## Notes
 
@@ -181,8 +165,6 @@ All responses are returned in **JSON** format and may include metadata such as t
 - Validate request parameters before sending requests.
 - Consider caching frequently requested data where appropriate.
 
----
-
-## About This Sample
+## About this sample
 
 This is a sanitized API documentation sample created for portfolio purposes, demonstrating structure, clarity, and best practices in technical writing.

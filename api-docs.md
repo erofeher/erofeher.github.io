@@ -1,10 +1,13 @@
-# API Documentation Sample – Payment Service
+---
+layout: default
+title: API Documentation Sample – Payment Service
+---
 
 ## Overview
 
 The Payment Service API allows client applications to create payments, retrieve payment details, and check transaction status.
 
-**Base URL**
+## Base URL
 
 ```text
 https://api.example.com/v1
@@ -24,7 +27,7 @@ Authorization: Bearer YOUR_API_TOKEN
 
 Creates a new payment.
 
-#### Request Body
+#### Request body
 
 ```json
 {
@@ -50,7 +53,7 @@ Creates a new payment.
 
 Returns payment details for the specified payment.
 
-#### Example Response
+#### Example response
 
 ```json
 {
@@ -66,7 +69,7 @@ Returns payment details for the specified payment.
 
 Returns the latest processing status.
 
-#### Example Response
+#### Example response
 
 ```json
 {
@@ -75,9 +78,9 @@ Returns the latest processing status.
 }
 ```
 
-## Error Handling
+## Error handling
 
-| Status Code | Meaning | Description |
+| Status code | Meaning | Description |
 |---|---|---|
 | 400 | Bad Request | The request body is invalid or missing required fields. |
 | 401 | Unauthorized | The bearer token is missing or invalid. |
