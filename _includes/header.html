@@ -1,12 +1,28 @@
 <header class="site-header" role="banner">
-  <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <div class="wrapper header-inner">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">Your Name</a>
 
-    <nav class="site-nav">
-      <a class="page-link" href="{{ "/" | relative_url }}#portfolio-sections">Portfolio Sections</a>
-      <a class="page-link" href="{{ "/" | relative_url }}#how-i-work">How I work</a>
-      <a class="page-link" href="{{ "/" | relative_url }}#skills-technologies">Skills &amp; Technologies</a>
-      <a class="page-link" href="{{ "/" | relative_url }}#tools-workflow">Tools and workflow</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a class="page-link" href="{{ "/" | relative_url }}#bio">Bio</a>
+      <a class="page-link" href="{{ "/" | relative_url }}#papers">Papers</a>
+      <a class="page-link" href="{{ "/" | relative_url }}#talks">Talks</a>
+      <a class="page-link" href="{{ "/" | relative_url }}#news">News</a>
+      <a class="page-link" href="{{ "/" | relative_url }}#experience">Experience</a>
+      <a class="page-link" href="{{ "/" | relative_url }}#projects">Projects</a>
+      <a class="page-link" href="{{ "/" | relative_url }}#teaching">Teaching</a>
     </nav>
+
+    <div class="header-actions" aria-label="Header actions">
+      <a class="icon-button" href="{{ "/" | relative_url }}#news" aria-label="Search section">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M10.5 4a6.5 6.5 0 1 0 0 13a6.5 6.5 0 0 0 0-13Zm0 1.8a4.7 4.7 0 1 1 0 9.4a4.7 4.7 0 0 1 0-9.4Zm5.97 10.4l3.53 3.52-1.28 1.28-3.52-3.53 1.27-1.27Z" fill="currentColor"/>
+        </svg>
+      </a>
+      <button class="icon-button theme-toggle" type="button" aria-label="Toggle theme">
+        <svg class="theme-icon moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14.6 2.7a1 1 0 0 1 .93 1.58A8.22 8.22 0 1 0 19.7 17.3a1 1 0 0 1 1.53 1.04A10.2 10.2 0 1 1 13.66 2.8a1 1 0 0 1 .94-.1Z" fill="currentColor"/>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>

@@ -3,109 +3,65 @@
 
 @import "minima";
 
-/* ===== Base adjustments for non-home pages ===== */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #f3f6fb;
-  color: #0f172a;
+  margin: 0;
+  color: #11281f;
+  background: #f7f8fa;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 .page-content {
-  padding: 40px 0 64px;
+  padding: 0 0 72px;
 }
 
 .wrapper {
-  max-width: 1100px;
+  max-width: 1300px;
 }
 
-.post-content,
-.home {
-  max-width: 920px;
-  margin: 0 auto;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 20px;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
-  padding: 40px 44px;
-}
-
-/* Keep the custom homepage nav from _includes/header.html visible */
 .site-nav {
   display: block !important;
 }
 
-/* ===== Typography for content pages ===== */
-.post-title {
-  color: #0f172a;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-bottom: 1.25rem;
+.post-content,
+.home {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e7eaef;
+  border-radius: 20px;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.06);
+  padding: 38px 42px;
 }
 
+.post-title,
 .post-content h1,
 .post-content h2,
 .post-content h3,
 .post-content h4 {
-  color: #0f172a;
+  color: #11281f;
   letter-spacing: -0.02em;
-}
-
-.post-content h2 {
-  font-size: 1.8rem;
-  margin-top: 2.2rem;
-  margin-bottom: 0.9rem;
-  padding-top: 0.4rem;
-  border-top: 1px solid #e8edf5;
-}
-
-.post-content h3 {
-  font-size: 1.15rem;
-  margin-top: 1.5rem;
-  margin-bottom: 0.55rem;
 }
 
 .post-content p,
 .post-content li {
-  color: #334155;
-  line-height: 1.72;
+  color: #3e4f48;
+  line-height: 1.75;
 }
 
 .post-content a {
-  color: #1d4ed8;
+  color: #0a5c4f;
 }
 
-.post-content a:hover {
-  text-decoration: underline;
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
 }
 
-/* ===== Tables ===== */
-.post-content table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  margin: 1rem 0 1.5rem;
-  overflow: hidden;
-  border: 1px solid #dbe3ee;
-  border-radius: 12px;
-  background: #ffffff;
-}
-
-.post-content th {
-  background: #f8fbff;
-  color: #0f172a;
-  font-weight: 700;
-}
-
-.post-content th,
-.post-content td {
-  padding: 12px 14px;
-  border-bottom: 1px solid #e7edf5;
-}
-
-.post-content tr:last-child td {
-  border-bottom: 0;
-}
-
-/* ===== Code blocks ===== */
 .post-content pre,
 .post-content .highlight,
 .post-content .highlighter-rouge,
@@ -114,12 +70,10 @@ body {
 .post-content figure.highlight,
 .post-content .highlight pre,
 .post-content .highlighter-rouge .highlight {
-  background: #0f172a !important;
-  color: #e5eefc !important;
-  border: 1px solid #1e293b !important;
-  border-left: 4px solid #3b82f6 !important;
-  border-radius: 12px !important;
-  box-shadow: none !important;
+  background: #10261f !important;
+  color: #ebf8f2 !important;
+  border: 1px solid #17342b !important;
+  border-radius: 14px !important;
 }
 
 .post-content pre,
@@ -129,53 +83,20 @@ body {
   padding: 16px 18px !important;
   margin: 14px 0 22px !important;
   overflow-x: auto !important;
-  line-height: 1.65 !important;
-  font-size: 0.95rem !important;
 }
 
-.post-content pre code,
-.post-content .highlight code,
-.post-content .highlighter-rouge code,
-.post-content .highlight span,
-.post-content .highlighter-rouge span {
-  background: transparent !important;
-  color: inherit !important;
-  border: 0 !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
-  font-size: inherit !important;
-}
-
-.post-content p code,
-.post-content li code,
-.post-content td code,
-.post-content th code,
-.post-content h3 code,
-.post-content h4 code {
-  background: #e8eef8 !important;
-  color: #1e3a8a !important;
-  border: 1px solid #d5dfef !important;
-  padding: 2px 6px !important;
-  border-radius: 6px !important;
-  font-size: 0.92em !important;
-}
-
-/* ===== Images ===== */
-.post-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 16px;
-  margin: 1.2rem auto;
+.post-content code {
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 800px) {
   .page-content {
-    padding: 24px 0 42px;
+    padding: 0 0 40px;
   }
 
   .post-content,
   .home {
-    padding: 24px 20px;
+    padding: 22px 18px;
     border-radius: 16px;
   }
 }
