@@ -105,7 +105,7 @@ title: Home
             <h2 class="meta-block-title">Tools I Use</h2>
 
             <div class="tool-group">
-              <strong>AI &amp; Writing</strong>
+              <h3>AI &amp; Writing</h3>
               <p>GitHub Copilot • ChatGPT</p>
             </div>
 
