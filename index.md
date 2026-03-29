@@ -6,7 +6,7 @@ title: Home
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
 <section class="hero-stage">
-  <div class="hero-shell">
+  <div class="hero-shell wrapper">
     <div class="hero-grid">
       <aside class="profile-column">
         <div class="profile-photo-wrap">
