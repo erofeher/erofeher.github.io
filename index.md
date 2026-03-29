@@ -103,20 +103,26 @@ title: Home
 
           <section>
             <h2 class="meta-block-title">Tools I Use</h2>
-            <ul class="education-list">
-              <li>
-                <strong>MSc Technical Communication</strong>
-                <span>Your University</span>
-              </li>
-              <li>
-                <strong>BSc Information Technology</strong>
-                <span>Your University</span>
-              </li>
-              <li>
-                <strong>Docs-as-Code Certifications</strong>
-                <span>Self-directed professional training</span>
-              </li>
-            </ul>
+
+            <div class="tool-group">
+              <strong>AI &amp; Writing</strong>
+              <p>GitHub Copilot • ChatGPT</p>
+            </div>
+
+            <div class="tool-group">
+              <strong>Development</strong>
+              <p>VSCode • Markdown • HTML • MadCap Flare</p>
+            </div>
+
+            <div class="tool-group">
+              <strong>Collaboration</strong>
+              <p>Jira • Confluence • Atlassian MCP Server</p>
+            </div>
+
+            <div class="tool-group">
+              <strong>Quality &amp; Workflow</strong>
+              <p>GitHub • GitLab • Vale</p>
+            </div>
           </section>
         </div>
       </main>
