@@ -121,7 +121,7 @@ title: Home
 
             <div class="tool-group">
               <strong>Quality &amp; Workflow</strong>
-              <p>GitHub • GitLab • Vale</p>
+              <p>GitHub • GitLab • Vale • Postman</p>
             </div>
           </section>
         </div>
