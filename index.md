@@ -6,7 +6,7 @@ title: Home
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
 <section class="hero-stage">
-  <div class="hero-shell wrapper">
+  <div class="hero-shell">
     <div class="hero-grid">
       <aside class="profile-column">
         <div class="profile-photo-wrap">
@@ -16,6 +16,7 @@ title: Home
         </div>
 
         <p class="profile-name-main">Erik Feher</p>
+        <p class="profile-name-alt">EF</p>
         <p class="profile-role">Senior Technical Writer</p>
         <p class="profile-org">OpenAI</p>
 
