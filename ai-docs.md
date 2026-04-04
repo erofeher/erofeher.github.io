@@ -12,7 +12,9 @@ title: AI-Assisted Documentation
         <div class="profile-photo-wrap">
           <div class="profile-photo">
             <img src="{{ "/images/profile.jpg" | relative_url }}" alt="Profile photo">
+          </div>
         </div>
+        
         <p class="profile-name-main">Erik Feher</p>
         <p class="profile-role">AI-Enabled Writing</p>
         <p class="profile-org">Documentation Systems</p>
