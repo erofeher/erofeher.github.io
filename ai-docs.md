@@ -53,12 +53,16 @@ I use a structured AI-driven approach that combines developer tools, language mo
            </ul>
           <br>
           <h3>3. Drafting Using VSCode and GitHub Copilot</h3>
+          <br>
           <ul>
             <li>Writing documentation in <strong>Markdown using VSCode</strong>.</li>
             <li>Using <strong>GitHub Copilot</strong> to:</li>
-            <li>- generate documentation from code context.</li>
-            <li>- suggest API descriptions and usage examples.</li>
-            <li>- accelerate initial drafts based on requirements and technical inputs.</li>
+              <ul>
+                <li>generate documentation from code context.</li>
+                <li>suggest API descriptions and usage examples.</li>
+                <li>accelerate initial drafts based on requirements and technical inputs.</li>
+              </ul>
+            </li>
           </ul>
         </section>
 
