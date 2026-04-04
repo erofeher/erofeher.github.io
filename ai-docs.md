@@ -36,11 +36,20 @@ My documentation process follows a structured flow combining multiple AI tools:
           </p>
           <h3>1. Documentation Delivery & Requirements (Jira & Confluence)</h3>
           <ul>
-            <li>Managing requirements, epics, and user stories in **Jira**</li>
-            <li>Reviewing HLDs and technical specifications in **Confluence**</li>
+            <li>Managing requirements, epics, and user stories in <strong>Jira</trong></li>
+            <li>Reviewing HLDs and technical specifications in <strong>Confluence</strong></li>
             <li>Gathering all relevant product and engineering context before writing</li>
             <li>Aligning documentation with the product development lifecycle</li>
           </ul>
+
+          <h3>2. Integration with Engineering Workflow Using Atlassian MCP Server</h3>
+          <ul>
+            <li>Fetch requirements from <strong>Jira</strong></li>
+            <li>Access and update documentation in <strong>Confluence</strong></li>
+            <li>Integrate documentation into real engineering workflows</li>
+            <li>Aligning documentation with the product development lifecycle</li>
+          </ul>
+          
         </section>
 
         <section class="subpage-card">
