@@ -36,7 +36,7 @@ My documentation process follows a structured flow combining multiple AI tools:
           </p>
           <h3>1. Documentation Delivery & Requirements (Jira & Confluence)</h3>
           <ul>
-            <li>Managing requirements, epics, and user stories in <strong>Jira</trong></li>
+            <li>Managing requirements, epics, and user stories in <strong>Jira</strong></li>
             <li>Reviewing HLDs and technical specifications in <strong>Confluence</strong></li>
             <li>Gathering all relevant product and engineering context before writing</li>
             <li>Aligning documentation with the product development lifecycle</li>
