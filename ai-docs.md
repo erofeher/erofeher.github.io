@@ -33,20 +33,32 @@ I use a structured AI-driven approach that combines developer tools, language mo
         <section class="subpage-list">
           <p>My documentation process follows a structured flow combining multiple AI tools:</p>
           
-          <h3>1. Documentation Delivery & Requirements (Jira & Confluence)</h3>
+          <h3>1. Documentation Delivery & Requirements Using Jira & Confluence</h3>
           <ul>
-            <li>Managing requirements, epics, and user stories in <strong>Jira</strong></li>
-            <li>Reviewing HLDs and technical specifications in <strong>Confluence</strong></li>
-            <li>Gathering all relevant product and engineering context before writing</li>
-            <li>Aligning documentation with the product development lifecycle</li>
+            <li>Managing requirements, epics, and user stories in <strong>Jira</strong>.</li>
+            <li>Reviewing HLDs and technical specifications in <strong>Confluence</strong>.</li>
+            <li>Gathering all relevant product and engineering context before writing.</li>
+            <li>Aligning documentation with the product development lifecycle.</li>
+          
           </ul>
           <br>
           <h3>2. Integration with Engineering Workflow Using Atlassian MCP Server</h3>
           <ul>
-            <li>Fetch requirements from <strong>Jira</strong></li>
-            <li>Access and update documentation in <strong>Confluence</strong></li>
-            <li>Integrate documentation into real engineering workflows</li>
-            <li>Aligning documentation with the product development lifecycle</li>
+            <li>Fetch requirements from <strong>Jira</strong>.</li>
+            <li>Access and update documentation in <strong>Confluence</strong>.</li>
+            <li>Integrate documentation into real engineering workflows.</li>
+            <li>Aligning documentation with the product development lifecycle.</li>
+          </ul>
+
+           </ul>
+          <br>
+          <h3>3. Drafting Using VSCode and GitHub Copilot</h3>
+          <ul>
+            <li>Writing documentation in <strong>Markdown using VSCode</strong>.</li>
+            <li>Using <strong>GitHub Copilot</strong> to:</li>
+            <li>- generate documentation from code context.</li>
+            <li>- suggest API descriptions and usage examples.</li>
+            <li>- accelerate initial drafts based on requirements and technical inputs.</li>
           </ul>
         </section>
 
