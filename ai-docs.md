@@ -22,7 +22,7 @@ title: AI in Technical Writing
 
       <main class="content-column">
         <span class="section-kicker">Workflow</span>
-        <h1 class="hero-section-title">AI-Assisted Documentation</h1>
+        <h1 class="hero-section-title">AI in Technical Writing</h1>
 
         <p class="about-text">
           I use an AI-assisted workflow that integrates directly with development and documentation tools.
