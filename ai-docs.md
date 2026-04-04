@@ -31,9 +31,8 @@ I use a structured AI-driven approach that combines developer tools, language mo
         </section>
 
         <section class="subpage-list">
-          <p>
-My documentation process follows a structured flow combining multiple AI tools:
-          </p>
+          <p>My documentation process follows a structured flow combining multiple AI tools:</p>
+          
           <h3>1. Documentation Delivery & Requirements (Jira & Confluence)</h3>
           <ul>
             <li>Managing requirements, epics, and user stories in <strong>Jira</strong></li>
@@ -41,7 +40,7 @@ My documentation process follows a structured flow combining multiple AI tools:
             <li>Gathering all relevant product and engineering context before writing</li>
             <li>Aligning documentation with the product development lifecycle</li>
           </ul>
-
+          <br>
           <h3>2. Integration with Engineering Workflow Using Atlassian MCP Server</h3>
           <ul>
             <li>Fetch requirements from <strong>Jira</strong></li>
@@ -49,7 +48,6 @@ My documentation process follows a structured flow combining multiple AI tools:
             <li>Integrate documentation into real engineering workflows</li>
             <li>Aligning documentation with the product development lifecycle</li>
           </ul>
-          
         </section>
 
         <section class="subpage-card">
