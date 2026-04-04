@@ -39,9 +39,9 @@ I use a structured AI-driven approach that combines developer tools, language mo
             <li>Reviewing HLDs and technical specifications in <strong>Confluence</strong>.</li>
             <li>Gathering all relevant product and engineering context before writing.</li>
             <li>Aligning documentation with the product development lifecycle.</li>
-          
           </ul>
           <br>
+          
           <h3>2. Integration with Engineering Workflow Using Atlassian MCP Server</h3>
           <ul>
             <li>Fetch requirements from <strong>Jira</strong>.</li>
@@ -49,14 +49,12 @@ I use a structured AI-driven approach that combines developer tools, language mo
             <li>Integrate documentation into real engineering workflows.</li>
             <li>Aligning documentation with the product development lifecycle.</li>
           </ul>
-
-           </ul>
           <br>
+          
           <h3>3. Drafting Using VSCode and GitHub Copilot</h3>
-          <br>
           <ul>
             <li>Writing documentation in <strong>Markdown using VSCode</strong>.</li>
-            <li>Using <strong>GitHub Copilot</strong> to:</li>
+            <li>Using <strong>GitHub Copilot</strong> to:
               <ul>
                 <li>generate documentation from code context.</li>
                 <li>suggest API descriptions and usage examples.</li>
