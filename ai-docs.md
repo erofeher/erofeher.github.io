@@ -17,7 +17,9 @@ title: AI in Technical Writing
       </h1>
 
       <p class="about-text">
-        I use an AI-assisted workflow that integrates directly with development and documentation tools.
+Modern technical writing is increasingly powered by AI-assisted workflows that improve speed, consistency, and collaboration across engineering and product teams.
+
+I use a structured AI-driven approach that combines developer tools, language models, and automated quality checks to produce high-quality, scalable documentation.
       </p>
 
       <div class="subpage-stack">
@@ -29,13 +31,15 @@ title: AI in Technical Writing
         </section>
 
         <section class="subpage-list">
-          <h2>Workflow Overview</h2>
+          <p>
+My documentation process follows a structured flow combining multiple AI tools:
+          </p>
+          <h3>1. Documentation Delivery & Requirements (Jira & Confluence)</h3>
           <ul>
-            <li>Drafting and structuring content using GitHub Copilot within VSCode.</li>
-            <li>Refining and improving documentation using ChatGPT.</li>
-            <li>Fetching requirements and context from Jira and Confluence via Atlassian MCP server.</li>
-            <li>Transforming technical inputs into structured, user-focused documentation.</li>
-            <li>Maintaining consistency and quality using Vale.</li>
+            <li>Managing requirements, epics, and user stories in **Jira**</li>
+            <li>Reviewing HLDs and technical specifications in **Confluence**</li>
+            <li>Gathering all relevant product and engineering context before writing</li>
+            <li>Aligning documentation with the product development lifecycle</li>
           </ul>
         </section>
 
