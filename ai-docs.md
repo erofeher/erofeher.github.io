@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AI-Assisted Documentation
+title: AI in Technical Writing
 ---
 
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
