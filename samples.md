@@ -11,7 +11,7 @@ title: Documentation Samples
       <main class="content-column">
         <span class="section-kicker">Portfolio</span>
         <h1 class="hero-section-title">Documentation Samples</h1>
-        <p class="about-text">This page is ready for links to your existing writing samples. Replace the placeholders below with the exact pieces you want recruiters or hiring managers to open first.</p>
+        <p>This page is ready for links to your existing writing samples. Replace the placeholders below with the exact pieces you want recruiters or hiring managers to open first.</p>
 
         <div class="subpage-stack">
           <section class="subpage-list">
