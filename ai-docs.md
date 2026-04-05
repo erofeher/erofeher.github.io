@@ -72,7 +72,7 @@ I use a structured AI-driven approach that combines developer tools, language mo
             </div>
 
             <div class="flow-step">
-              <h3>Content Refinement Using ChatGPT (organizational access)</h3>
+              <h3>Content Refinement Using ChatGPT (Organizational Access)</h3>
               <ul>
                 <li>Improve clarity and readability.</li>
                 <li>Restructure complex technical content.</li>
