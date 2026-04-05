@@ -11,7 +11,7 @@ title: Tools I Use
       <main class="content-column">
         <span class="section-kicker">Stack</span>
         <h1 class="hero-section-title">Tools I Use</h1>
-        <p class="about-text">Use this page to show your documentation stack. This is useful for recruiters because it makes your workflow concrete and easy to compare with job requirements.</p>
+        <p>Use this page to show your documentation stack. This is useful for recruiters because it makes your workflow concrete and easy to compare with job requirements.</p>
 
         <div class="subpage-stack">
           <section class="subpage-list">
