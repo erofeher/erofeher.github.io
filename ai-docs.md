@@ -8,7 +8,7 @@ title: AI in Technical Writing
 <section class="hero-stage">
   <div class="subpage-shell wrapper">
 
-    <main class="content-column" style="max-width: 900px; margin: 0 auto;">
+    <main class="content-column">
 
       <span class="section-kicker">Workflow</span>
 
