@@ -11,7 +11,7 @@ title: What I Do Best
       <main class="content-column">
         <span class="section-kicker">Strengths</span>
         <h1 class="hero-section-title">What I Do Best</h1>
-        <p class="about-text">Use this page to present the specific types of documentation work you do best and the business problems you solve through writing, structure, and content design.</p>
+        <p>Use this page to present the specific types of documentation work you do best and the business problems you solve through writing, structure, and content design.</p>
 
         <div class="subpage-stack">
           <section class="subpage-list">
