@@ -100,11 +100,12 @@ I use a structured AI-driven approach that combines developer tools, language mo
         </section>
 
         <section class="subpage-card">
-          <h2>Impact</h2>
-          <p>
-            This workflow enables faster delivery, better alignment with engineering teams,
-            and scalable documentation systems.
-          </p>
+          <h2>Key Capabilities</h2>
+          <li>AI-assisted documentation using GitHub Copilot and ChatGPT.</li>
+          <li>Documentation-as-Code workflows (Markdown + Git).</li>
+          <li>Automated quality enforcement with Vale.</li>
+          <li>Integration with Jira and Confluence via MCP Server.</li>
+          <li>End-to-end documentation lifecycle aligned with product development.</li>
         </section>
 
       </div>
