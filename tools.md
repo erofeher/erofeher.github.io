@@ -6,18 +6,7 @@ title: Tools I Use
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
 <section class="hero-stage">
-  <div class="subpage-shell wrapper">
-    <div class="subpage-grid">
-      <aside class="profile-column">
-        <div class="profile-photo-wrap">
-          <div class="profile-photo"></div>
-          <div class="photo-badge">⌘</div>
-        </div>
-        <p class="profile-name-main">Erik Feher</p>
-        <p class="profile-name-alt">EF</p>
-        <p class="profile-role">Tooling</p>
-        <p class="profile-org">Docs Stack</p>
-      </aside>
+  <div class="subpage-shell wrapper">     
 
       <main class="content-column">
         <span class="section-kicker">Stack</span>
