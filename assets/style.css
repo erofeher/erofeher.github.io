@@ -112,7 +112,7 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 .social-row { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
 .social-icon {
   width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center;
-  color: var(--hero-text); text-decoration: none; font-weight: 800; font-size: 1.05rem;
+  color: var(--hero-text); text-decoration: none; font-weight: 800; font-size: 1.15rem;
 }
 .content-column { color: var(--hero-text); }
 .hero-section-title {
@@ -233,7 +233,7 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
   color: var(--hero-text);
   text-decoration: none;
   font-weight: 800;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
 }
 
 .social-icon svg {
@@ -315,7 +315,7 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 
 .site-nav .page-link {
   color: #0f4d45 !important;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 700;
   margin-right: 28px;
   transition: all 0.2s ease;
@@ -337,4 +337,30 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 
 .header-inner {
   min-height: 92px;
+}
+
+
+/* ===== FIX CV BUTTON (WHITE TEXT + PREMIUM) ===== */
+.cv-button,
+.cv-button:visited,
+.cv-button:hover,
+.cv-button:active {
+  color: #ffffff !important;
+}
+
+.cv-button {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.cv-button:hover {
+  background: rgba(255,255,255,0.15);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35), 0 0 20px rgba(0,255,200,0.15);
+}
+
+.cv-button svg {
+  color: #ffffff !important;
+  stroke: currentColor;
 }
