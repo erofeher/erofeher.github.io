@@ -127,7 +127,7 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 }
 .cv-button-icon svg { width: 18px; height: 18px; }
 .subpage-card, .subpage-list {
-  max-width: 960px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 28px 30px; backdrop-filter: blur(3px);
+  max-width: 1200px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 28px 30px; backdrop-filter: blur(3px);
 }
 .subpage-card h2, .subpage-list h2 {
   color: var(--hero-text); font-size: 1.3rem; margin: 0 0 14px;
