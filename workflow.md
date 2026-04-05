@@ -11,7 +11,7 @@ title: How I Work
       <main class="content-column">
         <span class="section-kicker">Process</span>
         <h1 class="hero-section-title">How I Work</h1>
-        <p class="about-text">Use this page to explain your process from intake to final delivery. This is a strong hiring page because it shows how you think, how you communicate, and how you reduce chaos for product teams.</p>
+        <p>Use this page to explain your process from intake to final delivery. This is a strong hiring page because it shows how you think, how you communicate, and how you reduce chaos for product teams.</p>
 
         <div class="subpage-stack">
           <section class="subpage-list">
