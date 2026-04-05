@@ -20,7 +20,7 @@ title: AI in Technical Writing
 Modern technical writing is increasingly powered by AI-assisted workflows that improve speed, consistency, and collaboration across engineering and product teams.
       </p>
 
-      <p class="about-text">
+      <p>
 I use a structured AI-driven approach that combines developer tools, language models, and automated quality checks to produce high-quality, scalable documentation.
       </p>
 
