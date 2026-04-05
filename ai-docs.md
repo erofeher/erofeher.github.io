@@ -63,13 +63,39 @@ I use a structured AI-driven approach that combines developer tools, language mo
                 <li>
                   Using <strong>GitHub Copilot</strong> to:
                   <ul>
-                    <li>Generate documentation from code context.</li>
-                    <li>Suggest API descriptions and usage examples.</li>
-                    <li>Accelerate initial drafts based on requirements and technical inputs.</li>
+                    <li>generate documentation from code context.</li>
+                    <li>suggest API descriptions and usage examples.</li>
+                    <li>accelerate initial drafts based on requirements and technical inputs.</li>
                   </ul>
                 </li>
               </ul>
             </div>
+
+            <div class="flow-step">
+              <h3>Content Refinement Using ChatGPT (organizational access)</h3>
+              <ul>
+                <li>Improve clarity and readability.</li>
+                <li>Restructure complex technical content.</li>
+                <li>Adapt tone for different audiences (developers vs end-users).</li>
+                <li>Ensure consistency across documentation.</li>
+              </ul>
+            </div>
+
+            <div class="flow-step">
+              <h3>Quality & Standards Using Vale</h3>
+              <ul>
+                <li>Using <strong>Vale</strong> to enforce documentation quality:
+                <ul>
+                    <li>style guide validation.</li>
+                    <li>terminology consistency.</li>
+                    <li>grammar and readability checks.</li>
+                  </ul>
+                </li>
+                <li>Automating content validation across documentation sets.</li>
+                <li>Adapt tone for different audiences (developers vs end-users).</li>
+                <li>Ensuring scalable and maintainable documentation standards.</li>
+              </ul>
+            </div>        
           </div>
         </section>
 
