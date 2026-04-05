@@ -7,17 +7,6 @@ title: How I Work
 
 <section class="hero-stage">
   <div class="subpage-shell wrapper">
-    <div class="subpage-grid">
-      <aside class="profile-column">
-        <div class="profile-photo-wrap">
-          <div class="profile-photo"></div>
-          <div class="photo-badge">↺</div>
-        </div>
-        <p class="profile-name-main">Erik Feher</p>
-        <p class="profile-name-alt">EF</p>
-        <p class="profile-role">Structured Process</p>
-        <p class="profile-org">Delivery & Review</p>
-      </aside>
 
       <main class="content-column">
         <span class="section-kicker">Process</span>
