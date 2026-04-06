@@ -17,7 +17,7 @@ title: How I Work
 
         <div class="subpage-stack">
          <section class="subpage-list">
-          <p>My documentation process uses the following core principles:</p>
+          <p>My documentation process follows these core principles:</p>
 
           <div class="flow-steps">
             <div class="flow-step">
