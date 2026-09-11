@@ -7,30 +7,25 @@ title: Documentation Samples
 
 <section class="hero-stage">
   <div class="subpage-shell wrapper">
+    <main class="content-column">
+      <span class="section-kicker">Portfolio</span>
+      <h1 class="hero-section-title">Documentation Samples</h1>
+      <p class="section-text">Selected examples of user documentation and structured technical guidance. API-focused samples are available separately under REST API Samples.</p>
 
-      <main class="content-column">
-        <span class="section-kicker">Portfolio</span>
-        <h1 class="hero-section-title">Documentation Samples</h1>
-        <p>This page is ready for links to your existing writing samples. Replace the placeholders below with the exact pieces you want recruiters or hiring managers to open first.</p>
+      <div class="subpage-stack">
+        <section class="subpage-card">
+          <h2>Installation Guide Sample</h2>
+          <p>A complete enterprise-style installation guide for a fictitious software platform, covering prerequisites, architecture, configuration, installation, and verification.</p>
+          <a class="text-link" href="{{ "/documentation-samples/installation-guide/" | relative_url }}">View Installation Guide →</a>
+        </section>
 
-        <div class="subpage-stack">
-          <section class="subpage-list">
-            <h2>Featured Samples</h2>
-            <ul>
-              <li><a class="text-link" href="{{ "/api-docs.html" | relative_url }}">API Documentation Sample</a></li>
-              <li><a class="text-link" href="{{ "/documentation-samples.html" | relative_url }}">Documentation Samples Overview</a></li>
-              <li><a class="text-link" href="{{ "/hydrology-rest-api-sample.html" | relative_url }}">Hydrology REST API Sample</a></li>
-              <li><a class="text-link" href="{{ "/weather-rest-api-sample.html" | relative_url }}">Weather REST API Sample</a></li>
-            </ul>
-          </section>
-
-          <section class="subpage-card">
-            <h2>How to Use This Page</h2>
-            <p>You can organize this by API docs, user guides, internal docs, process docs, or case-study style breakdowns. Put your strongest and most relevant sample first.</p>
-          </section>
-        </div>
-      </main>
-    </div>
+        <section class="subpage-card">
+          <h2>User Guide Sample – Compliance Monitor</h2>
+          <p>A user guide sample demonstrating task-based guidance, clear structure, and practical instructions for an enterprise application.</p>
+          <a class="text-link" href="{{ "/Compliance_Monitor_User_Guide_Sample.html" | relative_url }}">View User Guide →</a>
+        </section>
+      </div>
+    </main>
   </div>
 </section>
 

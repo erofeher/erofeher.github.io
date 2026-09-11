@@ -1,37 +1,29 @@
 ---
 layout: default
-title: What I Do Best
+title: REST API Samples
 ---
 
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
 <section class="hero-stage">
   <div class="subpage-shell wrapper">
+    <main class="content-column">
+      <span class="section-kicker">Portfolio</span>
+      <h1 class="hero-section-title">REST API Samples</h1>
+      <p class="section-text">Selected API documentation samples demonstrating endpoint documentation, request and response structures, parameters, examples, and developer-focused guidance.</p>
 
-      <main class="content-column">
-        <span class="section-kicker">Strengths</span>
-        <h1 class="hero-section-title">What I Do Best</h1>
-        <p>Use this page to present the specific types of documentation work you do best and the business problems you solve through writing, structure, and content design.</p>
-
-        <div class="subpage-stack">
-          <section class="subpage-list">
-            <h2>Specialties</h2>
-            <ul>
-              <li>API documentation</li>
-              <li>Developer guides and onboarding flows</li>
-              <li>Information architecture</li>
-              <li>Help center and knowledge base design</li>
-              <li>Internal enablement and process documentation</li>
-            </ul>
-          </section>
-
-          <section class="subpage-card">
-            <h2>What Sets You Apart</h2>
-            <p>Add a short paragraph about your strongest differentiators: clarity, speed, systems thinking, collaboration with engineering, or AI-assisted writing maturity.</p>
-          </section>
-        </div>
-      </main>
-    </div>
+      <div class="subpage-stack">
+        <section class="subpage-list">
+          <h2>API Documentation Samples</h2>
+          <ul>
+            <li><a class="text-link" href="{{ "/api-docs.html" | relative_url }}">API Documentation Sample – Payment Service</a></li>
+            <li><a class="text-link" href="{{ "/save-metadata-rest-api-sample.html" | relative_url }}">Metadata REST API Sample</a></li>
+            <li><a class="text-link" href="{{ "/weather-rest-api-sample.html" | relative_url }}">Weather REST API Sample</a></li>
+            <li><a class="text-link" href="{{ "/hydrology-rest-api-sample.html" | relative_url }}">Hydrology REST API Sample</a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
   </div>
 </section>
 
