@@ -59,7 +59,7 @@ server and installer. This chapter describes the most commonly used parameters.
 
 [← Previous: Preparing the Configuration Files](07-preparing-configuration-files.html) | [Next: Running the Installer →](09-running-the-installer.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

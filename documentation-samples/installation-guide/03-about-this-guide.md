@@ -62,7 +62,7 @@ The following additional documents are typically provided with a solution of thi
 
 [← Previous: Revision History](02-revision-history.html) | [Next: Installation Overview →](04-installation-overview.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

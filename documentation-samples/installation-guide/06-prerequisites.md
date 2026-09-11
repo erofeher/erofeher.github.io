@@ -67,7 +67,7 @@ The account used to run the installer must have:
 
 [← Previous: Solution Architecture](05-solution-architecture.html) | [Next: Preparing the Configuration Files →](07-preparing-configuration-files.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

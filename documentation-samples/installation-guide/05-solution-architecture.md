@@ -66,7 +66,7 @@ typically deployed and how they communicate with each other.
 
 [← Previous: Installation Overview](04-installation-overview.html) | [Next: Prerequisites and Preparation →](06-prerequisites.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

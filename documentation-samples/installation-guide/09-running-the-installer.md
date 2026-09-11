@@ -61,7 +61,7 @@ required for the new version.
 
 [← Previous: Configuring the Application](08-configuring-the-application.html) | [Next: Verifying the Installation →](10-verifying-the-installation.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

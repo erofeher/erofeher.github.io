@@ -57,7 +57,7 @@ Installing the Contoso Platform generally involves the following stages:
 
 [← Previous: About This Guide](03-about-this-guide.html) | [Next: Solution Architecture →](05-solution-architecture.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

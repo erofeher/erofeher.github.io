@@ -437,3 +437,52 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
   margin-top: 8px;
   padding-left: 22px;
 }
+
+
+/* ===== INSTALLATION GUIDE CODE & TABLES ===== */
+/* Keep inline code readable on dark documentation cards. */
+.subpage-card code {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #d7f7ef !important;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+/* Distinguish command/configuration blocks from the page background. */
+.subpage-card pre,
+.subpage-card .highlight {
+  background: rgba(0, 0, 0, 0.24) !important;
+  color: #f3faf8 !important;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+}
+
+.subpage-card pre {
+  padding: 16px 18px;
+  overflow-x: auto;
+}
+
+.subpage-card pre code,
+.subpage-card .highlight code {
+  background: transparent !important;
+  color: inherit !important;
+  padding: 0;
+}
+
+/* Prevent Minima's light table stripes from clashing with the green guide. */
+.subpage-card table {
+  color: var(--hero-text);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.subpage-card table th,
+.subpage-card table td {
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: var(--hero-text) !important;
+  border-color: rgba(255, 255, 255, 0.22) !important;
+}
+
+.subpage-card table tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.08) !important;
+}

@@ -38,7 +38,7 @@ reused.
 
 [Next: Revision History →](02-revision-history.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

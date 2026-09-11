@@ -29,7 +29,7 @@ title: Revision History
 
 [← Previous: Legal Notice](01-legal-notice.html) | [Next: About This Guide →](03-about-this-guide.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

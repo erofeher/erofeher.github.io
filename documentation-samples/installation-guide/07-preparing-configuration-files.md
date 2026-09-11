@@ -60,7 +60,7 @@ installation later.
 
 [← Previous: Prerequisites and Preparation](06-prerequisites.html) | [Next: Configuring the Application →](08-configuring-the-application.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

@@ -48,7 +48,7 @@ This concludes the Contoso Platform Installation Guide sample template.
 
 [← Previous: Running the Installer](09-running-the-installer.html) | [Back to Table of Contents](index.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>

@@ -44,7 +44,7 @@ Use it as a skeleton when you need to:
 9. [Running the Installer](09-running-the-installer.html)
 10. [Verifying the Installation](10-verifying-the-installation.html)
 
-      </div>
-    </main>
-  </div>
+</div>
+</main>
+</div>
 </section>
