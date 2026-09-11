@@ -486,3 +486,36 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 .subpage-card table tr:nth-child(even) td {
   background: rgba(255, 255, 255, 0.08) !important;
 }
+
+
+/* ===== INSTALLATION GUIDE TABLE STRIPING FIX ===== */
+/* Override Minima/Jekyll light table row backgrounds on green documentation cards. */
+.subpage-card table,
+.subpage-card table thead,
+.subpage-card table tbody,
+.subpage-card table tr,
+.subpage-card table th,
+.subpage-card table td {
+  color: var(--hero-text) !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+.subpage-card table thead tr,
+.subpage-card table thead th {
+  background: rgba(255, 255, 255, 0.09) !important;
+}
+
+.subpage-card table tbody tr,
+.subpage-card table tbody tr:nth-child(odd),
+.subpage-card table tbody tr:nth-child(odd) td {
+  background: rgba(255, 255, 255, 0.025) !important;
+}
+
+.subpage-card table tbody tr:nth-child(even),
+.subpage-card table tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.065) !important;
+}
+
+.subpage-card table tbody td {
+  color: var(--hero-text) !important;
+}
