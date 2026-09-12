@@ -58,10 +58,6 @@ installer use. This topic describes the most commonly used parameters.
 
 [← Previous: Prepare the configuration files](07-preparing-configuration-files.html) | [Next: Run the installer →](09-running-the-installer.html)
 
----
-
-[← Previous: Preparing the Configuration Files](07-preparing-configuration-files.html) | [Next: Running the Installer →](09-running-the-installer.html)
-
 </div>
 </main>
 </div>
