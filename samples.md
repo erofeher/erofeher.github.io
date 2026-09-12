@@ -19,6 +19,12 @@ title: Documentation Samples
           <a class="text-link" href="{{ "/documentation-samples/installation-guide/" | relative_url }}">View Installation Guide →</a>
         </section>
 
+        <section class="subpage-card">
+          <h2>Implementer Guide Sample</h2>
+          <p>A complete enterprise-style implementer guide for a fictitious software platform, covering data integration, custom functions, business logic, detection rules, scoring, and configuration validation.</p>
+          <a class="text-link" href="{{ "/documentation-samples/implementer-guide/" | relative_url }}">View Implementer Guide →</a>
+        </section>
+
       </div>
     </main>
   </div>
