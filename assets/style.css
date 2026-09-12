@@ -522,16 +522,16 @@ body.dark-mode .site-header { background: #0f1917; border-bottom-color: #20302c;
 
 
 /* ===== DOCUMENTATION GUIDE LINK CONTRAST ===== */
-/* Mint links provide clear contrast against the dark green documentation cards. */
+/* Keep documentation guide links in the original blue. */
 .subpage-card a,
 .subpage-card a:link,
 .subpage-card a:visited {
-  color: #7DE2D1 !important;
-  text-decoration-color: rgba(125, 226, 209, 0.70);
+  color: #2a7ae2 !important;
+  text-decoration-color: rgba(42, 122, 226, 0.75);
 }
 
 .subpage-card a:hover,
 .subpage-card a:focus {
-  color: #A8F0E4 !important;
-  text-decoration-color: #A8F0E4;
+  color: #5fa2f3 !important;
+  text-decoration-color: #5fa2f3;
 }
