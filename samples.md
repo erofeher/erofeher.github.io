@@ -19,11 +19,6 @@ title: Documentation Samples
           <a class="text-link" href="{{ "/documentation-samples/installation-guide/" | relative_url }}">View Installation Guide →</a>
         </section>
 
-        <section class="subpage-card">
-          <h2>User Guide Sample – Compliance Monitor</h2>
-          <p>A user guide sample demonstrating task-based guidance, clear structure, and practical instructions for an enterprise application.</p>
-          <a class="text-link" href="{{ "/Compliance_Monitor_User_Guide_Sample.html" | relative_url }}">View User Guide →</a>
-        </section>
       </div>
     </main>
   </div>
