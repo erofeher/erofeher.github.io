@@ -1,71 +1,69 @@
 ---
 layout: default
-title: Prerequisites and Preparation
+title: "Prerequisites and preparation"
 ---
-
-<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
 <section class="hero-stage">
-  <div class="subpage-shell wrapper">
-    <main class="content-column" style="max-width: 1000px; margin: 0 auto;">
-      <div class="subpage-card" style="max-width: 100%;" markdown="1">
+<div class="subpage-shell">
+<main class="content-column">
+<div class="subpage-card" markdown="1">
 
-# Prerequisites and Preparation
+# Prerequisites and preparation
 
-[← Back to Table of Contents](index.html)
+[← Back to table of contents](index.html)
 
 ---
 
-Before installing the Contoso Platform, confirm that your environment meets the
-requirements described in this chapter.
+Before you install the Contoso Platform, confirm that your environment meets the
+requirements in this topic.
 
-## Supported Operating Systems
+## Supported operating systems
 
-| Operating System | Supported Versions |
+| Operating system | Supported versions |
 |---|---|
 | Linux | Ubuntu 22.04 LTS, Red Hat Enterprise Linux 8.x / 9.x |
 | Windows Server | Windows Server 2019, Windows Server 2022 |
 
-## Supported Databases
+## Supported databases
 
-| Database | Supported Versions |
+| Database | Supported versions |
 |---|---|
 | PostgreSQL | 14.x, 15.x |
 | Microsoft SQL Server | 2019, 2022 |
 
-## Preinstalled Software
+## Preinstalled software
 
-| Software | Minimum Version | Notes |
+| Software | Minimum version | Notes |
 |---|---|---|
 | Java Runtime Environment | 17 | Required on the application server host. |
-| Node.js | 18.x | Required only if building the web client from source. |
+| Node.js | 18.x | Required only if you build the web client from source. |
 | Docker | 24.x | Required only for container-based deployments. |
 
-## Hardware Recommendations
+## Hardware recommendations
 
 | Component | CPU | RAM | Disk |
 |---|---|---|---|
-| Application Server | 4 cores | 16 GB | 100 GB |
-| Database Server | 8 cores | 32 GB | 500 GB (SSD recommended) |
-| Message Broker | 2 cores | 8 GB | 50 GB |
+| Application server | 4 cores | 16 GB | 100 GB |
+| Database server | 8 cores | 32 GB | 500 GB (SSD recommended) |
+| Message broker | 2 cores | 8 GB | 50 GB |
 
-## Required Permissions
+## Required permissions
 
-The account used to run the installer must have:
+The account you use to run the installer must have:
 
 - Local administrator (Windows) or `sudo` (Linux) privileges on the application server.
 - A database account with privileges to create schemas, users, and roles.
-- Network access to all target hosts on the ports described in the
-  [Solution Architecture](05-solution-architecture.html) chapter.
+- Network access to all target hosts on the ports described in
+  [Solution architecture](05-solution-architecture.html).
 
 > **Note:** Contoso recommends creating a dedicated service account for the installer
-> rather than reusing a personal administrator account. Do not use real production
-> credentials when testing this template — use your organization's standard
+> instead of reusing a personal administrator account. Don't use real production
+> credentials when you test this template. Use your organization's standard
 > credential-management process.
 
 ---
 
-[← Previous: Solution Architecture](05-solution-architecture.html) | [Next: Preparing the Configuration Files →](07-preparing-configuration-files.html)
+[← Previous: Solution architecture](05-solution-architecture.html) | [Next: Prepare the configuration files →](07-preparing-configuration-files.html)
 
 </div>
 </main>

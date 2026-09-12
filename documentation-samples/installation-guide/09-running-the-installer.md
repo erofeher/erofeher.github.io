@@ -1,65 +1,64 @@
 ---
 layout: default
-title: Running the Installer
+title: "Run the installer"
 ---
-
-<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
 <section class="hero-stage">
-  <div class="subpage-shell wrapper">
-    <main class="content-column" style="max-width: 1000px; margin: 0 auto;">
-      <div class="subpage-card" style="max-width: 100%;" markdown="1">
+<div class="subpage-shell">
+<main class="content-column">
+<div class="subpage-card" markdown="1">
 
-# Running the Installer
+# Run the installer
 
-[← Back to Table of Contents](index.html)
+[← Back to table of contents](index.html)
 
 ---
 
-Once the configuration files are ready, run the installer to deploy the database schema
-and application components.
+After your configuration files are ready, run the installer to deploy the database
+schema and application components.
 
-## To run the installer from the command line:
+## Run the installer from the command line
 
-1. Open a terminal on the target server and navigate to the installer folder.
-2. Run the installer in unattended mode, pointing it to the prepared configuration file:
+1. Open a terminal on the target server and go to the installer folder.
+2. Run the installer in unattended mode, pointing it to the prepared configuration
+   file:
 
    ```
    ./contoso-installer --conf ./conf/contoso.conf --mode install
    ```
 
 3. Monitor the console output, or the generated log file (`install.log`), for errors.
-4. When the installer finishes, it prints a summary of the tasks that were completed and
-   any that were skipped.
+4. When the installer finishes, it prints a summary of the tasks it completed and any
+   it skipped.
 
-## Running Specific Tasks Only
+## Run specific tasks only
 
-The installer also supports running a single task, which is useful when repeating a step
-after fixing a configuration issue:
+The installer also supports running a single task, which is useful when you repeat a
+step after fixing a configuration issue:
 
 ```
 ./contoso-installer --conf ./conf/contoso.conf --task create-database-schema
 ```
 
-| Task Name | Description |
+| Task name | Description |
 |---|---|
 | `create-database-schema` | Creates the application database schema, tables, and indexes. |
-| `create-database-users` | Creates the database users and roles used by the application. |
+| `create-database-users` | Creates the database users and roles the application uses. |
 | `deploy-application` | Copies the application binaries to the target server and registers the service. |
-| `configure-message-broker` | Creates the queues and exchanges used by the message broker. |
+| `configure-message-broker` | Creates the queues and exchanges the message broker uses. |
 
-> **Note:** Always take a backup of the database before re-running a task in an existing
+> **Note:** Always back up the database before you rerun a task in an existing
 > environment.
 
-## Considerations for Upgrades
+## Considerations for upgrades
 
-When upgrading an existing installation, run the installer with `--mode upgrade` instead
-of `--mode install`. This preserves existing data and only applies the schema changes
-required for the new version.
+When you upgrade an existing installation, run the installer with `--mode upgrade`
+instead of `--mode install`. This preserves existing data and applies only the schema
+changes the new version requires.
 
 ---
 
-[← Previous: Configuring the Application](08-configuring-the-application.html) | [Next: Verifying the Installation →](10-verifying-the-installation.html)
+[← Previous: Configure the application](08-configuring-the-application.html) | [Next: Verify the installation →](10-verifying-the-installation.html)
 
 </div>
 </main>
