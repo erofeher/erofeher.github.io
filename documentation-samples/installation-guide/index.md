@@ -3,10 +3,11 @@ layout: default
 title: "Contoso Platform Installation Guide (Sample Template)"
 ---
 
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 <section class="hero-stage">
-<div class="subpage-shell">
-<main class="content-column">
-<div class="subpage-card" markdown="1">
+<div class="subpage-shell wrapper">
+<main class="content-column" style="max-width: 1000px; margin: 0 auto;">
+<div class="subpage-card" style="max-width: 100%;" markdown="1">
 
 # Contoso Platform Installation Guide (Sample Template)
 
