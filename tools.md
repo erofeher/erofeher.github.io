@@ -29,10 +29,9 @@ title: Tools I Use
             <h2>Preferred Setup</h2>
             <p>Add a paragraph about the tools you prefer most, why you use them, and how they improve quality, consistency, or delivery speed.</p>
           </section>
-        </div>
-      </main>
-    </div>
-  </div>
+</div>
+</main>
+</div>
 </section>
 
 <script>

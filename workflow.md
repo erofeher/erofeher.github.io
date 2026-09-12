@@ -82,14 +82,9 @@ title: How I Work
           </div>
         </section>
 
-          <section class="subpage-card">
-            <h2>Documentation Workflow</h2>
-            <p>This workflow reflects how I approach documentation delivery:</p>
-          </section>
-        </div>
-      </main>
-    </div>
-  </div>
+</div>
+</main>
+</div>
 </section>
 
 <script>
