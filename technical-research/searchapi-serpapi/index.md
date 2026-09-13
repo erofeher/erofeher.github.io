@@ -25,17 +25,28 @@ title: SearchApi vs. SerpApi Benchmark
 
         <h2>Results</h2>
 
-| Metric | SearchApi | SerpApi |
-| --- | ---: | ---: |
-| Requests | 50 | 50 |
-| Success rate | 100% | 100% |
-| Median latency | 4.24 s | 8.42 s |
-| Mean latency | 5.20 s | 12.38 s |
-| P95 latency | 11.77 s | 35.44 s |
-| Minimum latency | 2.03 s | 1.38 s |
-| Maximum latency | 25.53 s | 45.88 s |
-| Mean organic results | 8.02 | 7.92 |
-| Mean payload | 75.0 KiB | 80.5 KiB |
+        <div class="research-table-wrap">
+          <table class="research-table">
+            <thead>
+              <tr>
+                <th>Metric</th>
+                <th>SearchApi</th>
+                <th>SerpApi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Requests</td><td>50</td><td>50</td></tr>
+              <tr><td>Success rate</td><td>100%</td><td>100%</td></tr>
+              <tr><td>Median latency</td><td><strong>4.24 s</strong></td><td>8.42 s</td></tr>
+              <tr><td>Mean latency</td><td><strong>5.20 s</strong></td><td>12.38 s</td></tr>
+              <tr><td>P95 latency</td><td><strong>11.77 s</strong></td><td>35.44 s</td></tr>
+              <tr><td>Minimum latency</td><td>2.03 s</td><td><strong>1.38 s</strong></td></tr>
+              <tr><td>Maximum latency</td><td><strong>25.53 s</strong></td><td>45.88 s</td></tr>
+              <tr><td>Mean organic results</td><td>8.02</td><td>7.92</td></tr>
+              <tr><td>Mean payload</td><td>75.0 KiB</td><td>80.5 KiB</td></tr>
+            </tbody>
+          </table>
+        </div>
 
         <p>SearchApi had the lower per-query median latency for <strong>9 of 10 queries</strong>. The exception was <code>iphone 17 review</code>, where SerpApi had the lower median latency.</p>
         <p>The paired responses shared an average of <strong>6.42 organic URLs</strong>, with a mean <strong>Jaccard similarity of 71.4%</strong>. This matters because a latency comparison is more useful when the two services return substantially comparable result sets.</p>
