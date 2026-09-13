@@ -10,8 +10,8 @@ title: Documentation Samples
     <main class="content-column">
       <span class="section-kicker">Portfolio</span>
       <h1 class="hero-section-title">Documentation Samples</h1>
-      <p class="section-text">Selected examples of user documentation and structured technical guidance.</p> 
-      <p class="section-text">API-focused samples are available separately under <a class="text-link" href="{{ "/REST_API.html" | relative_url }}">REST API Samples</a>.</p>
+      <p class="section-text">Selected examples of user documentation and structured technical guidance.<br>
+      API-focused samples are available separately under <a class="text-link" href="{{ "/REST_API.html" | relative_url }}">REST API Samples</a>.</p>
 
       <div class="subpage-stack">
 
