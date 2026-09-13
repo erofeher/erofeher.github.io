@@ -10,7 +10,7 @@ title: SearchApi vs. SerpApi Benchmark
     <main class="content-column">
       <span class="section-kicker">Technical Research &amp; API Benchmark</span>
       <h1 class="hero-section-title">SearchApi vs. SerpApi: A Reproducible Google Search API Benchmark</h1>
-      <p class="section-text">I compared SearchApi and SerpApi on the same Google Search workload to measure latency, reliability, response size, organic-result count, and result overlap. The code and raw measurements behind every number are included with this sample.</p>
+      <p class="section-text">I compared SearchApi and SerpApi using the same Google Search workload. I measured latency, success rate, payload size, organic-result count, and result overlap. The benchmark code and raw data behind every reported number are included.</p>
 
       <section class="subpage-card research-card">
         <div class="research-actions">
@@ -49,12 +49,21 @@ title: SearchApi vs. SerpApi Benchmark
         </div>
 
         <p>SearchApi had the lower per-query median latency for <strong>9 of 10 queries</strong>. The exception was <code>iphone 17 review</code>, where SerpApi had the lower median latency.</p>
-        <p>The paired responses shared an average of <strong>6.42 organic URLs</strong>, with a mean <strong>Jaccard similarity of 71.4%</strong>. This matters because a latency comparison is more useful when the two services return substantially comparable result sets.</p>
+        <p>The paired responses shared an average of <strong>6.42 organic URLs</strong>, with a mean <strong>Jaccard similarity of 71.4%</strong>. The overlap helps show that the latency comparison is based on substantially comparable result sets.</p>
 
         <h2>Methodology</h2>
-        <p>I used 10 queries covering software, programming, weather, consumer products, travel, local search, automotive, AI, and shopping. Each query was run five times against each provider, producing <strong>100 measured requests: 50 per provider</strong>.</p>
-        <p>Both providers used Google Search with <code>gl=us</code> and <code>hl=en</code>. SerpApi requests used <code>no_cache=true</code>. Provider order alternated between runs to reduce systematic bias from always testing one provider first. Requests were executed sequentially from the same client machine, with a two-second pause between requests.</p>
-        <p>Latency was measured client-side with Python <code>time.perf_counter()</code> around the complete HTTP request. Every measurement was written immediately to the raw CSV, including HTTP status, response time, payload size, organic-result count, returned organic URLs, and any error.</p>
+        <p>I used 10 queries covering software, programming, weather, consumer products, travel, local search, automotive, AI, and shopping.</p>
+        <ul>
+          <li>Ran each query five times against each provider.</li>
+          <li>Collected <strong>50 measurements per provider and 100 measurements in total</strong>.</li>
+          <li>Used Google Search with <code>gl=us</code> and <code>hl=en</code> for both providers.</li>
+          <li>Used <code>no_cache=true</code> for SerpApi requests.</li>
+          <li>Alternated provider order between runs to reduce systematic bias from always testing one provider first.</li>
+          <li>Waited two seconds between requests.</li>
+          <li>Ran all requests sequentially from the same client machine.</li>
+          <li>Measured end-to-end latency with Python <code>time.perf_counter()</code> around the complete HTTP request.</li>
+          <li>Recorded every measurement immediately in the raw CSV, including HTTP status, response time, payload size, organic-result count, returned organic URLs, and any error.</li>
+        </ul>
 
         <h2>Query set</h2>
         <p>The exact workload is available in <a href="{{ "/technical-research/searchapi-serpapi/queries.txt" | relative_url }}"><code>queries.txt</code></a>.</p>
@@ -70,7 +79,7 @@ title: SearchApi vs. SerpApi Benchmark
         </ul>
 
         <h2>Interpretation</h2>
-        <p>The clearest difference was latency. SearchApi's median was roughly half SerpApi's in this run, and its P95 was also materially lower. Both providers completed all measured requests successfully.</p>
+        <p>The clearest difference was latency. SearchApi's median was roughly half SerpApi's in this run. Its P95 latency was <strong>11.77 seconds</strong>, compared with <strong>35.44 seconds for SerpApi</strong>. Both providers completed all measured requests successfully.</p>
         <p>The result was not uniform. SerpApi produced the faster individual minimum request, and it had the lower median for one of the ten queries. The raw data also contains substantial latency outliers, which is why I report median and P95 rather than relying on a single request or only the arithmetic mean.</p>
         <p>Organic-result counts were close on average. URL overlap was substantial but not perfect, so the providers should not be treated as returning identical SERPs.</p>
 
