@@ -13,23 +13,25 @@ title: Documentation Samples
       <p class="section-text">Selected examples of user documentation and structured technical guidance. API-focused samples are available separately under REST API Samples.</p>
 
       <div class="subpage-stack">
-        <section class="subpage-card">
-          <h2>Installation Guide Sample</h2>
-          <p>A complete enterprise-style installation guide for a fictitious software platform, covering prerequisites, architecture, configuration, installation, and verification.</p>
-          <a class="text-link" href="{{ "/documentation-samples/installation-guide/" | relative_url }}">View Installation Guide →</a>
-        </section>
-
-        <section class="subpage-card">
-          <h2>Implementer Guide Sample</h2>
-          <p>A complete enterprise-style implementer guide for a fictitious software platform, covering data integration, custom functions, business logic, detection rules, scoring, and configuration validation.</p>
-          <a class="text-link" href="{{ "/documentation-samples/implementer-guide/" | relative_url }}">View Implementer Guide →</a>
-        </section>
 
         <section class="subpage-card">
           <h2>Technical Research &amp; API Benchmark</h2>
           <p>A reproducible comparison of SearchApi and SerpApi using Python-based testing, raw data analysis, performance metrics, and technical writing.</p>
           <p><strong>API · Python · Data · Technical Research</strong></p>
           <a class="text-link" href="{{ "/technical-research/searchapi-serpapi/" | relative_url }}">View SearchApi vs. SerpApi Benchmark →</a>
+        </section>
+
+        <section class="subpage-card">
+          <h2>Installation Guide Sample</h2>
+          <p>A complete enterprise-style installation guide for a fictitious software platform, covering prerequisites, architecture, configuration, installation, and verification.</p>
+          <a class="text-link" href="{{ "/documentation-samples/installation-guide/" | relative_url }}">View Installation Guide →</a>
+        </section>
+
+
+        <section class="subpage-card">
+          <h2>Implementer Guide Sample</h2>
+          <p>A complete enterprise-style implementer guide for a fictitious software platform, covering data integration, custom functions, business logic, detection rules, scoring, and configuration validation.</p>
+          <a class="text-link" href="{{ "/documentation-samples/implementer-guide/" | relative_url }}">View Implementer Guide →</a>
         </section>
 
       </div>
