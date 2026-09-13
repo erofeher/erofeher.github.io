@@ -20,6 +20,9 @@ title: Tools I Use
               <li>Markdown and docs-as-code workflows</li>
               <li>GitHub, Git, and pull-request reviews</li>
               <li>VS Code, Vale, and editorial QA tooling</li>
+              <li>MadCap Flare for structured authoring and publishing</li>
+              <li>Zendesk and Intercom for knowledge base and help center content</li>
+              <li>Camtasia for video tutorials and training content</li>
               <li>Jira and Confluence for planning and collaboration</li>
               <li>ChatGPT and Copilot for AI-assisted drafting</li>
             </ul>
