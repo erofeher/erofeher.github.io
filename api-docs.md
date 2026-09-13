@@ -3,6 +3,13 @@ layout: default
 title: API Documentation Sample – Payment Service
 ---
 
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+
+<section class="hero-stage">
+<div class="subpage-shell wrapper">
+<main class="content-column" style="max-width: 1000px; margin: 0 auto;">
+<div class="subpage-card" style="max-width: 100%;" markdown="1">
+
 ## Overview
 
 The Payment Service API allows client applications to create payments, retrieve payment details, and check transaction status.
@@ -92,3 +99,8 @@ Returns the latest processing status.
 - Use idempotency keys for retry-safe payment creation.
 - Store `payment_id` for reconciliation and status tracking.
 - All timestamps are returned in UTC.
+
+</div>
+</main>
+</div>
+</section>

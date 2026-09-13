@@ -3,6 +3,13 @@ layout: default
 title: Metadata Mapping API
 ---
 
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+
+<section class="hero-stage">
+<div class="subpage-shell wrapper">
+<main class="content-column" style="max-width: 1000px; margin: 0 auto;">
+<div class="subpage-card" style="max-width: 100%;" markdown="1">
+
 ## Overview
 
 The Metadata Mapping API allows saving mapping configurations for specific work item types.
@@ -138,3 +145,8 @@ You can define it in one of the following ways:
 ## About this sample
 
 This is a sanitized API documentation sample created for portfolio purposes, demonstrating structure, clarity, and best practices in technical writing.
+
+</div>
+</main>
+</div>
+</section>

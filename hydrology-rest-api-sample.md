@@ -3,6 +3,13 @@ layout: default
 title: Hydrology API
 ---
 
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+
+<section class="hero-stage">
+<div class="subpage-shell wrapper">
+<main class="content-column" style="max-width: 1000px; margin: 0 auto;">
+<div class="subpage-card" style="max-width: 100%;" markdown="1">
+
 ## Overview
 
 The Hydrology API provides access to watershed information, precipitation records, and streamflow data through REST endpoints.
@@ -168,3 +175,8 @@ All responses are returned in **JSON** format and may include metadata such as t
 ## About this sample
 
 This is a sanitized API documentation sample created for portfolio purposes, demonstrating structure, clarity, and best practices in technical writing.
+
+</div>
+</main>
+</div>
+</section>

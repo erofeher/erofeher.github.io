@@ -3,6 +3,13 @@ layout: default
 title: Weather API
 ---
 
+<link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+
+<section class="hero-stage">
+<div class="subpage-shell wrapper">
+<main class="content-column" style="max-width: 1000px; margin: 0 auto;">
+<div class="subpage-card" style="max-width: 100%;" markdown="1">
+
 ## Overview
 
 The Weather API provides access to current weather conditions and forecast data for specific locations.
@@ -119,3 +126,8 @@ If the limit is exceeded, the API returns:
 ## About this sample
 
 This is a sanitized API documentation sample created for portfolio purposes, demonstrating structure, clarity, and best practices in technical writing.
+
+</div>
+</main>
+</div>
+</section>
