@@ -17,7 +17,6 @@ title: Contact
 
         <p class="profile-name-main">Erik Feher</p>
         <p class="profile-role">Senior Technical Writer</p>
-        <p class="profile-org">OpenAI</p>
 
         <div class="social-links" aria-label="Social links">
           <span class="social-icon icon-email" aria-hidden="true">
@@ -69,21 +68,21 @@ title: Contact
       <main class="content-column">
         <span class="section-kicker">Contact</span>
         <h1 class="hero-section-title">Contact</h1>
-        <p class="about-text">Use this page for your main contact details and a short call to action. Keep it simple and make the next step obvious.</p>
+        <p class="about-text">Get in touch if you would like to discuss technical writing opportunities, documentation projects, or AI-assisted documentation workflows.</p>
 
         <div class="subpage-stack">
           <section class="subpage-list">
             <h2>Contact Details</h2>
             <ul>
-              <li>Email: <a class="text-link" href="mailto:your@email.com">your@email.com</a></li>
-              <li>LinkedIn: <a class="text-link" href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></li>
-              <li>GitHub: <a class="text-link" href="https://github.com/yourusername">github.com/yourusername</a></li>
+              <li>Email: <a class="text-link" href="mailto:erofeher11@hotmail.com">erofeher11@hotmail.com</a></li>
+              <li>LinkedIn: <a class="text-link" href="https://www.linkedin.com/in/erik-feher-18bb0a141/">linkedin.com/in/erik-feher-18bb0a141</a></li>
+              <li>GitHub / Portfolio: <a class="text-link" href="https://erofeher.github.io/">erofeher.github.io</a></li>
             </ul>
           </section>
 
           <section class="subpage-card">
             <h2>Availability</h2>
-            <p>Add one short paragraph here about the kinds of roles, freelance projects, or collaborations you are open to.</p>
+            <p>I’m open to fully remote Technical Writer and documentation-focused opportunities across EMEA, as well as international roles that support remote collaboration. I’m particularly interested in roles involving technical documentation, knowledge management, docs-as-code, APIs, and AI-assisted documentation workflows.</p>
           </section>
         </div>
       </main>
