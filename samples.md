@@ -25,6 +25,13 @@ title: Documentation Samples
           <a class="text-link" href="{{ "/documentation-samples/implementer-guide/" | relative_url }}">View Implementer Guide →</a>
         </section>
 
+        <section class="subpage-card">
+          <h2>Technical Research &amp; API Benchmark</h2>
+          <p>A reproducible comparison of SearchApi and SerpApi using Python-based testing, raw data analysis, performance metrics, and technical writing.</p>
+          <p><strong>API · Python · Data · Technical Research</strong></p>
+          <a class="text-link" href="{{ "/technical-research/searchapi-serpapi/" | relative_url }}">View SearchApi vs. SerpApi Benchmark →</a>
+        </section>
+
       </div>
     </main>
   </div>
