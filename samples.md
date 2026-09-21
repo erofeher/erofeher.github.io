@@ -16,6 +16,13 @@ title: Documentation Samples
       <div class="subpage-stack">
 
         <section class="subpage-card">
+          <h2>Marketing Data Normalization</h2>
+          <p>A technical article showing how Google Ads and Meta Ads data can be mapped into a shared BigQuery model for reliable cross-channel reporting.</p>
+          <p><strong>Marketing APIs · BigQuery · SQL · Data Modeling</strong></p>
+          <a class="text-link" href="{{ "/marketing-data-normalization.html" | relative_url }}">View Marketing Data Normalization Guide →</a>
+        </section>
+
+        <section class="subpage-card">
           <h2>Technical Research &amp; API Benchmark</h2>
           <p>A reproducible comparison of SearchApi and SerpApi using Python-based testing, raw data analysis, performance metrics, and technical writing.</p>
           <p><strong>API · Python · Data · Technical Research</strong></p>
