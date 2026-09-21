@@ -110,7 +110,7 @@ WHERE segments.date DURING LAST_30_DAYS</code></pre>
 <pre><code>GET /act_{ad_account_id}/insights
   ?level=campaign
   &amp;time_increment=1
-  &amp;fields=date_start,campaign_id,campaign_name,spend,impressions,clicks</code></pre>
+  &amp;fields=date_start,campaign_id,campaign_name,spend,impressions,clicks,account_currency</code></pre>
 
         <div class="research-table-wrap">
           <table class="research-table">
@@ -122,6 +122,7 @@ WHERE segments.date DURING LAST_30_DAYS</code></pre>
               <tr><td><code>campaign_id</code></td><td><code>campaign_id</code></td><td>Keep as STRING</td></tr>
               <tr><td><code>campaign_name</code></td><td><code>campaign</code></td><td>Rename</td></tr>
               <tr><td><code>spend</code></td><td><code>spend</code></td><td>Cast to NUMERIC</td></tr>
+              <tr><td><code>account_currency</code></td><td><code>currency</code></td><td>Keep ISO currency code</td></tr>
               <tr><td><code>impressions</code></td><td><code>impressions</code></td><td>Cast to INT64 if required</td></tr>
               <tr><td><code>clicks</code></td><td><code>clicks</code></td><td>Cast to INT64 if required</td></tr>
             </tbody>
