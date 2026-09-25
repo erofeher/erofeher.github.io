@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Software Projects
+title: Software Samples
 ---
 
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
@@ -9,6 +9,13 @@ title: Software Projects
   /* Software Projects: compact, high-contrast action buttons */
   .project-tech span {
     color: #55b8ff;
+    font-weight: 700;
+  }
+
+  .project-tech b {
+    display: inline-block;
+    margin: 0 8px;
+    color: rgba(255, 255, 255, .72);
     font-weight: 700;
   }
 
@@ -65,7 +72,7 @@ title: Software Projects
   <div class="subpage-shell wrapper">
     <main class="content-column">
       <span class="section-kicker">Development Portfolio</span>
-      <h1 class="hero-section-title">Software Projects</h1>
+      <h1 class="hero-section-title">Software Samples</h1>
       <p class="section-text">Selected software projects focused on practical front-end development, real-time data visualization, API integration, state management, and automated testing.</p>
 
       <div class="software-project-grid">
@@ -85,7 +92,7 @@ title: Software Projects
             <p>A responsive real-time monitoring dashboard built with React and TypeScript. It uses simulated live telemetry to demonstrate KPI monitoring, interactive charts, operational alerts, filtering, state management, and automated component testing.</p>
 
             <div class="project-tech" aria-label="Technology stack">
-              <span>React</span><span>TypeScript</span><span>Redux Toolkit</span><span>React Query</span><span>Material UI</span><span>Recharts</span><span>Jest</span>
+              <span>React</span><b>•</b><span>TypeScript</span><b>•</b><span>Redux Toolkit</span><b>•</b><span>React Query</span><b>•</b><span>Material UI</span><b>•</b><span>Recharts</span><b>•</b><span>Jest</span>
             </div>
 
             <div class="project-highlights">
