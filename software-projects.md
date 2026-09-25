@@ -5,6 +5,62 @@ title: Software Projects
 
 <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
 
+<style>
+  /* Software Projects: compact, high-contrast action buttons */
+  .project-tech span {
+    color: #55b8ff;
+    font-weight: 700;
+  }
+
+  .project-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  .project-actions .project-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 9px 18px;
+    border: 2px solid #32a8ff;
+    border-radius: 9px;
+    color: #55b8ff !important;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none !important;
+    transition: transform .15s ease, background-color .15s ease, border-color .15s ease;
+  }
+
+  .project-actions .project-button-primary {
+    background: #168cff;
+    border-color: #45b4ff;
+    color: #ffffff !important;
+    box-shadow: 0 0 14px rgba(22, 140, 255, .24);
+  }
+
+  .project-actions .project-button:hover {
+    transform: translateY(-1px);
+    border-color: #78caff;
+    color: #78caff !important;
+  }
+
+  .project-actions .project-button-primary:hover {
+    background: #299cff;
+    color: #ffffff !important;
+  }
+
+  @media (max-width: 600px) {
+    .project-actions .project-button {
+      padding: 9px 15px;
+      font-size: 14px;
+    }
+  }
+</style>
+
 <section class="hero-stage">
   <div class="subpage-shell wrapper">
     <main class="content-column">
