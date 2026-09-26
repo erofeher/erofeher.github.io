@@ -94,7 +94,6 @@ title: Software Samples
           </div>
 
           <div class="software-project-content">
-            <span class="project-status">Completed Project</span>
             <h2>Real-Time Mission Analytics Dashboard</h2>
             <p>A responsive real-time monitoring dashboard built with React and TypeScript. It uses simulated live telemetry to demonstrate KPI monitoring, interactive charts, operational alerts, filtering, state management, and automated component testing.</p>
 
@@ -130,7 +129,6 @@ title: Software Samples
           </div>
 
           <div class="software-project-content">
-            <span class="project-status">Completed Project</span>
             <h2>Knowledge Base Analytics Dashboard</h2>
             <p>A responsive knowledge-base analytics dashboard for monitoring content performance, publishing health, search success, and article lifecycle. It demonstrates REST-style data access, interactive analytics, search, combined filtering, and automated component testing.</p>
 
