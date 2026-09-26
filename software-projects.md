@@ -26,6 +26,13 @@ title: Software Samples
     margin-top: 16px;
   }
 
+  /* Clear separation between Software Samples */
+  .software-project-card + .software-project-card {
+    margin-top: 42px;
+    padding-top: 34px;
+    border-top: 1px solid rgba(255, 255, 255, .18);
+  }
+
   .project-actions .project-button {
     display: inline-flex;
     align-items: center;
