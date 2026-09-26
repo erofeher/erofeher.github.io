@@ -1,0 +1,1 @@
+import axios from"axios";import{articles,performance,Article}from"../data/articles";const client=axios.create({baseURL:"/api",timeout:3000});export type DashboardData={articles:Article[];performance:typeof performance};export async function fetchDashboard():Promise<DashboardData>{void client;await new Promise(r=>setTimeout(r,450));return{articles,performance}}
