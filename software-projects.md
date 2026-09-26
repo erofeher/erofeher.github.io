@@ -111,6 +111,42 @@ title: Software Samples
             </div>
           </div>
         </article>
+
+        <article class="software-project-card">
+          <div class="project-preview" aria-hidden="true">
+            <div class="project-preview-bar"><span></span><span></span><span></span></div>
+            <div class="project-preview-body">
+              <div class="preview-kpis"><i></i><i></i><i></i><i></i></div>
+              <div class="preview-chart"><b></b><b></b></div>
+              <div class="preview-table"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+
+          <div class="software-project-content">
+            <span class="project-status">Completed Project</span>
+            <h2>Knowledge Base Analytics Dashboard</h2>
+            <p>A responsive knowledge-base analytics dashboard for monitoring content performance, publishing health, search success, and article lifecycle. It demonstrates REST-style data access, interactive analytics, search, combined filtering, and automated component testing.</p>
+
+            <div class="project-tech" aria-label="Technology stack">
+              <span>React</span><b>•</b><span>TypeScript</span><b>•</b><span>React Query</span><b>•</b><span>Axios</span><b>•</b><span>Material UI</span><b>•</b><span>Recharts</span><b>•</b><span>Jest</span>
+            </div>
+
+            <div class="project-highlights">
+              <strong>Highlights</strong>
+              <ul>
+                <li>Knowledge-base KPIs, content health, and article lifecycle analytics</li>
+                <li>Article search with combined status and category filtering</li>
+                <li>Interactive performance and content-status visualizations</li>
+                <li>Responsive UI with loading, error, empty states, and automated testing</li>
+              </ul>
+            </div>
+
+            <div class="project-actions">
+              <a class="project-button project-button-primary" href="{{ "/projects/knowledge-base-analytics/" | relative_url }}">Open Live Demo</a>
+              <a class="project-button" href="https://github.com/erofeher/erofeher.github.io/tree/main/source-projects/knowledge-base-analytics" target="_blank" rel="noopener">View Source</a>
+            </div>
+          </div>
+        </article>
       </div>
     </main>
   </div>
